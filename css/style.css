@@ -2,3 +2,7 @@
     text-decoration: none;
     box-sizing: content-box;
 }
+
+.navbar{
+    padding: 20px 0;
+}
