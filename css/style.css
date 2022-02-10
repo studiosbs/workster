@@ -6,3 +6,6 @@
 .navbar{
     padding: 20px 0;
 }
+.navbar .container{
+    padding: 0 85px !important;
+}
