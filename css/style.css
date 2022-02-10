@@ -13,3 +13,7 @@ body{
 .navbar .container{
     padding: 0 85px !important;
 }
+.nav-link{
+    color: #959aa5 !important;
+    font-weight: 700;
+}
