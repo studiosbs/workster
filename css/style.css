@@ -17,3 +17,6 @@ body{
     color: #959aa5 !important;
     font-weight: 700;
 }
+.nav-item .active{
+    color: #000 !important;
+}
