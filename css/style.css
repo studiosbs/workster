@@ -8,10 +8,10 @@ body{
 }
 
 .navbar{
-    padding: 20px 0;
+    padding: 30px 0;
 }
 .navbar .container{
-    padding: 0 85px !important;
+    padding: 0 120px !important;
 }
 .nav-link{
     color: #959aa5 !important;
@@ -19,4 +19,9 @@ body{
 }
 .nav-item .active{
     color: #000 !important;
+}
+.header .container{
+    height: 720px;
+    border-radius: 25px;
+    background: #000;
 }
