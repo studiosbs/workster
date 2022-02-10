@@ -12,7 +12,7 @@ body{
 }
 
 .nav-link{
-    color: #959aa5 !important;
+    color: #535281 !important;
     font-weight: 700;
 }
 .nav-item .active, .nav-link:hover{
@@ -31,4 +31,8 @@ body{
 }
 .header p{
     line-height: 32px;
+}
+.nav-item .disabled{
+    color: #f6f5fb !important;
+    font-size: 25px;
 }
