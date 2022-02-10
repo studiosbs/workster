@@ -3,6 +3,10 @@
     box-sizing: content-box;
 }
 
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
 .navbar{
     padding: 20px 0;
 }
