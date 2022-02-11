@@ -131,3 +131,31 @@ body{
     font-weight: 700;
     color: #000;
 }
+.cards{
+    margin: 98px 0 115px;
+}
+.card-1{
+    padding: 62px 56px;
+    background-image: url(../img/card-01.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+}
+.card-1 .recommend{
+    color: #01cf66;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 42px;
+}
+.card-1 .heading{
+    line-height: 40px;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+.card-1 .paragraph{
+    font-weight: 600;
+    color: #535281;
+    line-height: 25px;
+    margin-bottom: 300px;
+    font-size: 15px;
+}
