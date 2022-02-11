@@ -20,10 +20,13 @@ body{
 }
 .header .container{
     border-radius: 25px;
-    padding: 100px 0 435px;
+    padding: 100px 0 125px;
     background-image: url(../img/header-bg.png);
     background-size: cover;
     background-position: center;
+}
+.header .text{
+    padding-bottom: 60px;
 }
 .header h2{
     font-weight: 800;
