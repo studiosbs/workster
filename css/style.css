@@ -121,3 +121,13 @@ body{
     background: #f6f5fb;
     border: none;
 }
+.header-form p{
+    color: #535281;
+    font-weight: 600;
+    font-size: 12px;
+    text-align: center;
+}
+.header-form span{
+    font-weight: 700;
+    color: #000;
+}
