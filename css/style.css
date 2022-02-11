@@ -83,6 +83,7 @@ body{
 }
 .header-form form{
     height: 80px;
+    display: flex;
     background: #fff;
     border-radius: 40px;
     margin-bottom: 45px;
@@ -95,7 +96,28 @@ body{
     border-radius: 31px;
     border: none;
     color: #fff;
-    margin: 10px 0 0 15px;
+    margin: 10px 15px;
     padding: 18px 22px;
     font-size: 18px;
+}
+.header-form input{
+    border: none;
+    height: 62px;
+    font-weight: 700;
+    background: none;
+    border-radius: 0 !important;
+}
+.header-form input:focus, .header-form select:focus{
+    border: 0 0 3px 0 !important;
+    box-shadow: none !important;
+    background: none;
+}
+.header-form select{
+    width: 225px;
+    padding: 20px 40px;
+    font-weight: 700;
+    border-radius: 31px;
+    margin: 10px 15px;
+    background: #f6f5fb;
+    border: none;
 }
