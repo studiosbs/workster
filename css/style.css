@@ -139,6 +139,7 @@ body{
     background-image: url(../img/card-01.png);
     background-size: cover;
     border-radius: 30px;
+    height: 450px;
 }
 .card-1 .recommend{
     color: #01cf66;
@@ -155,6 +156,5 @@ body{
     font-weight: 600;
     color: #535281;
     line-height: 25px;
-    margin-bottom: 300px;
     font-size: 15px;
 }
