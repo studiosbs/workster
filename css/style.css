@@ -222,7 +222,7 @@ h6{
 
 .hire-content{
     border-radius: 25px;
-    padding: 100px 120px;
+    padding: 50px 60px;
     background-image: url(../img/header-bg.png);
     background-position: center;
     background-size: cover;
@@ -241,4 +241,7 @@ h6{
     padding: 25px 92px;
     border-radius: 50px;
     color: #fff;
+}
+.hire{
+    margin-bottom: 130px;
 }
