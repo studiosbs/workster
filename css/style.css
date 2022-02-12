@@ -146,8 +146,10 @@ a{
     background-size: cover;
     background-position: bottom;
     border-radius: 30px;
-    height: 400px;
-    margin-right: 45px;
+    height: 364px;
+}
+.card-1, .card-2{
+    margin: 20px;
 }
 .card-1 .recommend{
     color: #00D066;
@@ -181,4 +183,39 @@ a{
     border-radius: 26px;
     font-size: 12px;
     font-weight: 500;
+}
+.proccess{
+    margin: 60px 0;
+}
+h6{
+    font-size: 18px;
+    font-weight: 800;
+}
+.proccess h6{
+    margin-bottom: 34px;
+}
+.proccess-img{
+    background-image: url(../img/header-bg.png);
+    background-position: center;
+    background-size: cover;
+    height: 618px;
+    border-radius: 28px;
+    margin-bottom: 56px;
+}
+.card-line{
+    height: 5px;
+    background: #f5f5fa;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 25px;
+}
+.card-title{
+    margin-bottom: 15px !important;
+}
+.card-text{
+    color: #8083A3;
+    font-size: 14px;
+}
+.proccess-card:hover .card-line{
+    background: #00D066;
 }
