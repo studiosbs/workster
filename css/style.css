@@ -45,6 +45,10 @@ body{
     font-family: 'Inter', sans-serif;
 }
 
+a{
+    text-decoration: none;
+}
+
 .navbar{
     padding: 30px 0;
 }
@@ -140,23 +144,41 @@ body{
     padding: 62px 56px;
     background-image: url(../img/card-01.png);
     background-size: cover;
+    background-position: bottom;
     border-radius: 30px;
-    height: 450px;
+    height: 400px;
+    margin-right: 45px;
 }
 .card-1 .recommend{
     color: #00D066;
     font-size: 12px;
     font-weight: 600;
-    margin-bottom: 42px;
+    margin-bottom: 30px;
 }
 .card-1 .heading{
     line-height: 40px;
     font-weight: 800;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 .card-1 .paragraph{
     font-weight: 600;
     color: #8083A3;
-    line-height: 25px;
+    line-height: 24px;
     font-size: 14px;
+}
+.card-2{
+    padding: 60px 50px;
+    background-image: url(../img/card-02.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+}
+.search-link{
+    padding: 10px 20px;
+    background: #fff;
+    color: #000;
+    margin: 4px;
+    border-radius: 26px;
+    font-size: 12px;
+    font-weight: 500;
 }
