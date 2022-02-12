@@ -50,7 +50,7 @@ body{
 }
 
 .nav-link{
-    color: #535281 !important;
+    color: #8083A3 !important;
     font-weight: 700;
 }
 .nav-item .active, .nav-link:hover{
@@ -122,7 +122,7 @@ body{
     border: none;
 }
 .header-form p{
-    color: #535281;
+    color: #8083A3;
     font-weight: 600;
     font-size: 12px;
     text-align: center;
@@ -154,7 +154,7 @@ body{
 }
 .card-1 .paragraph{
     font-weight: 600;
-    color: #535281;
+    color: #8083A3;
     line-height: 25px;
     font-size: 15px;
 }
