@@ -235,5 +235,10 @@ h6{
 }
 .hire-paragraph{
     line-height: 32px;
-    
+}
+.hire-link{
+    background: #00D066;
+    padding: 25px 92px;
+    border-radius: 50px;
+    color: #fff;
 }
