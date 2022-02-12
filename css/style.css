@@ -219,3 +219,21 @@ h6{
 .proccess-card:hover .card-line{
     background: #00D066;
 }
+
+.hire-content{
+    border-radius: 25px;
+    padding: 100px 120px;
+    background-image: url(../img/header-bg.png);
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+}
+.hire-title{
+    font-size: 34px;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+.hire-paragraph{
+    line-height: 32px;
+    
+}
