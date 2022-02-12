@@ -87,12 +87,12 @@ body{
     background: #fff;
     border-radius: 40px;
     margin-bottom: 45px;
-    box-shadow: 0px 5px 7px 0px rgba(0,0,0,0.25);
-    -webkit-box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.25);
-    -moz-box-shadow: 0px 5px 7px 0px rgba(0,0,0,0.25);
+    box-shadow: 0px 4px 7px 0px #999babd0;
+    -webkit-box-shadow: 0px 5px 5px 0px #999babd0;
+    -moz-box-shadow: 0px 5px 7px 0px #999babd0;
 }
 .header-form button{
-    background: #01cf66;
+    background: #00D066;
     border-radius: 31px;
     border: none;
     color: #fff;
@@ -106,6 +106,7 @@ body{
     font-weight: 700;
     background: none;
     border-radius: 0 !important;
+    font-size: 14px;
 }
 .header-form input:focus, .header-form select:focus{
     border: 0 0 3px 0 !important;
@@ -120,6 +121,7 @@ body{
     margin: 10px 15px;
     background: #f6f5fb;
     border: none;
+    font-size: 14px;
 }
 .header-form p{
     color: #8083A3;
@@ -142,7 +144,7 @@ body{
     height: 450px;
 }
 .card-1 .recommend{
-    color: #01cf66;
+    color: #00D066;
     font-size: 12px;
     font-weight: 600;
     margin-bottom: 42px;
@@ -156,5 +158,5 @@ body{
     font-weight: 600;
     color: #8083A3;
     line-height: 25px;
-    font-size: 15px;
+    font-size: 14px;
 }
