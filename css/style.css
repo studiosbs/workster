@@ -112,7 +112,7 @@ a{
     border-radius: 0 !important;
     font-size: 14px;
 }
-.header-form input:focus, .header-form select:focus{
+.header-form input:focus, .header-form select:focus, .language button:focus{
     border: 0 0 3px 0 !important;
     box-shadow: none !important;
     background: none;
@@ -244,4 +244,44 @@ h6{
 }
 .hire{
     margin-bottom: 130px;
+}
+footer{
+    background: #fff;
+    border-top: 3px solid #f5f5fa;
+    padding: 62px 115px 0;
+}
+.links ul{
+    list-style: none;
+    font-weight: 800;
+    font-size: 14px;
+}
+.links li{
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.links a{
+    color: #8083A3;
+}
+.links li:first-child{
+    margin-top: 28px;
+}
+.links li:last-child{
+    margin-bottom: 60px !important;
+}
+.footer-copyright{
+    border-top: 3px solid #f5f5fa;
+    padding: 20px 0;
+}
+.copyright{
+    color: #8083A3 !important;
+    font-weight: 600;
+    font-size: 14px;
+}
+.copyright a{
+    color: #8083A3;
+}
+.language button{
+    color: #8083A3;
+    font-size: 14px;
+    font-weight: 600;
 }
