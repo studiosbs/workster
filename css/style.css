@@ -133,6 +133,7 @@ a{
 .language button:focus,
 .btn:focus{
     border: 1px solid #e4e6e8;
+    
     box-shadow: none !important;
     background: none;
 }
