@@ -132,7 +132,8 @@ a{
 .header-form select:focus, 
 .language button:focus,
 .btn:focus,
-.form-control:focus{
+.form-control:focus,
+.form-check-input:focus {
     border: 1px solid #e4e6e8;
     box-shadow: none !important;
     background: none;
@@ -390,4 +391,10 @@ footer{
 .signup-form h2{
     font-size: 34px;
     font-weight: 800;
+}
+.divider{
+    background-color: #f5f5fa;
+    height: 3px;
+    border-radius: 3px;
+    text-align: center;
 }
