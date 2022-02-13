@@ -128,8 +128,11 @@ a{
     border-radius: 0 !important;
     font-size: 14px;
 }
-.header-form input:focus, .header-form select:focus, .language button:focus{
-    border: 0 0 3px 0 !important;
+.header-form input:focus, 
+.header-form select:focus, 
+.language button:focus,
+.btn:focus{
+    border: 1px solid #e4e6e8;
     box-shadow: none !important;
     background: none;
 }
