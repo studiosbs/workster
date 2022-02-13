@@ -314,3 +314,32 @@ footer{
     border-radius: 22px;
 
 }
+.background{
+    border-radius: 40px;
+    background-image: url(../img/header-bg.png);
+    background-position: center;
+    background-size: cover;
+    padding-top: 120px;
+    padding-bottom: 75px;
+    margin: 36px;
+}
+.background .title,
+.background .ask-btn{
+    margin: 46px;
+    color: #fff;
+}
+.background .title{
+    font-weight: 800;
+    font-size: 42px;
+}
+.background .ask-btn{
+    padding: 24px;
+    background-color: rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(25px) !important;
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: 800;
+}
+.ask-btn p{
+    margin: 0 !important;
+}
