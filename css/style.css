@@ -52,10 +52,26 @@ a{
 .navbar{
     padding: 30px 0;
 }
+.blur-effect{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-basis: auto;
+    flex-direction: column;
+    flex-shrink: 0;
+    position: sticky;
+    z-index: 10;
+    background-color: rgba(255, 255, 255, 0.65);
+    backdrop-filter: blur(14px);
+    /* box-shadow: 0 4px 8px rgb(152 155 168 / 15%); */
+}
 
 .nav-link{
     color: #8083A3 !important;
     font-weight: 700;
+    font-size: 16px;
 }
 .nav-item .active, .nav-link:hover{
     color: #000 !important;
@@ -284,4 +300,14 @@ footer{
     color: #8083A3;
     font-size: 14px;
     font-weight: 600;
+}
+.sign-in, .join-now{
+    font-weight: 800;
+    font-size: 14px;
+}
+.join-now{
+    background: #f5f5fa;
+    padding: 10px 14px;
+    border-radius: 22px;
+
 }
