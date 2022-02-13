@@ -131,7 +131,8 @@ a{
 .header-form input:focus, 
 .header-form select:focus, 
 .language button:focus,
-.btn:focus{
+.btn:focus,
+.form-control:focus{
     border: 1px solid #e4e6e8;
     box-shadow: none !important;
     background: none;
@@ -321,7 +322,8 @@ footer{
     background-size: cover;
     padding-top: 120px;
     padding-bottom: 75px;
-    margin: 36px;
+    height: 100em;
+    margin-right: 120px !important;
 }
 .background .title,
 .background .ask-btn{
@@ -330,7 +332,7 @@ footer{
 }
 .background .title{
     font-weight: 800;
-    font-size: 42px;
+    font-size: 48px;
 }
 .background .ask-btn{
     padding: 24px;
@@ -339,7 +341,54 @@ footer{
     border-radius: 15px;
     font-size: 16px;
     font-weight: 800;
+    margin-bottom: 0 !important;
 }
 .ask-btn p{
     margin: 0 !important;
+}
+.ask-btn .btn{
+    background-color: #00D066;
+    color: #fff;
+    border-radius: 30px;
+}
+.btn-success{
+    background-color: #00D066 !important;
+    border: none !important;
+}
+.form-check-input{
+    background-color: #f5f5fa !important;
+    border: none !important;
+    height: 20px;
+    width: 20px;
+}
+.signup-form .btn-success{
+    border-radius: 30px;
+}
+.form-check-label{
+    font-size: 14px;
+    font-weight: 600;
+    color: #8083A3;
+}
+.form-control{
+    height: auto !important;
+    color: #000;
+    font-weight: 800;
+    border-radius: 10px;
+    font-size: 16px;
+}
+.label{
+    color: #000;
+    font-weight: 600;
+}
+
+.form-check-input:checked[type=checkbox]{
+    background-color: #00D066 !important;
+}
+.signup-form .text{
+    font-size: 14px;
+    color: #8083A3;
+}
+.signup-form h2{
+    font-size: 34px;
+    font-weight: 800;
 }

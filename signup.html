@@ -16,13 +16,39 @@
     <div class="content d-flex">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-5 background">
-                    <img src="img/header-img.png" class="w-100  mb-5" alt="">
-                    <h1 class="title">Stay updated on<br>your network</h1>
-                    <div class="ask-btn d-flex justify-content-between">
-                        <p class="text-white">Already have an account?</p>
-                        <button class="btn">Sign In</button>
+                <div class="col-5 d-flex flex-column background m-4 h-100">
+                    <div class="image justify-content-start">
+                        <img src="img/header-img.png" class="w-100 mb-4" alt="">
                     </div>
+                    <div class="text justify-content-end">
+                        <h1 class="title">Stay updated on your network</h1>
+                        <div class="ask-btn d-flex justify-content-between align-items-center">
+                            <p class="text-white">Already have an account?</p>
+                            <button class="btn pt-3 pb-3 p-5">Sign In</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="signup-form col-4 d-flex flex-column justify-content-start align-items-center">
+                    <div class="logo">
+                        <img src="img/icon.png" class="m-5" height="60px" alt="">
+                    </div>
+                    <h2>Sign Up</h2>
+                    <p class="mb-3 text">Take the next step and sign in to your account</p>
+                    <form action="" class="w-100 mt-4">
+                        <div class="form-floating mb-3">
+                            <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+                            <label for="floatingInput" class="label">Email address</label>
+                        </div>
+                        <div class="form-check mb-4">
+                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                              I agree with the terms and conditions
+                            </label>
+                        </div>
+                        <div class="col-auto">
+                            <button type="submit" class="btn btn-success w-100 mb-3 pt-3 pb-3">Sign Up</button>
+                          </div>
+                    </form>
                 </div>
             </div>
         </div>
