@@ -398,3 +398,12 @@ footer{
     border-radius: 3px;
     text-align: center;
 }
+
+.btn svg{
+    padding-right: 18px;
+}
+.signup-with .btn{
+    border: 1px solid #e4e6e8;
+    color: #8083A3;
+    font-weight: 600
+}
