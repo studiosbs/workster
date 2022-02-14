@@ -369,7 +369,7 @@ footer{
     font-weight: 600;
     color: #8083A3;
 }
-.form-control{
+.form-control, .label{
     height: auto !important;
     color: #000;
     font-weight: 800;
