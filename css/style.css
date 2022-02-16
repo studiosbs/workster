@@ -78,7 +78,7 @@ a{
 }
 .header .container{
     border-radius: 25px;
-    padding: 100px 0 125px;
+    padding: 100px 0;
     background-image: url(../img/header-bg.png);
     background-size: cover;
     background-position: center;
