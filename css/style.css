@@ -49,6 +49,26 @@ a{
     text-decoration: none;
 }
 
+ /* width */
+ body::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  body::-webkit-scrollbar-track {
+    background: #f5f5fa;
+  }
+  
+  /* Handle */
+  body::-webkit-scrollbar-thumb {
+    background: #8083A3;
+  }
+  
+  /* Handle on hover */
+  body::-webkit-scrollbar-thumb:hover {
+    background: #00D066;
+  } 
+
 .navbar{
     padding: 30px 0;
 }
