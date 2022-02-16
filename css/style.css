@@ -56,7 +56,7 @@ a{
   
   /* Track */
   body::-webkit-scrollbar-track {
-    background: #f5f5fa;
+    background: #fff;
   }
   
   /* Handle */
@@ -64,6 +64,7 @@ a{
     background: #8083A3;
     border-radius: 10px;
     width: 5px;
+    box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.25);
   }
   
   /* Handle on hover */
