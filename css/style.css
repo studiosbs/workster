@@ -88,6 +88,9 @@ a{
     z-index: 10;
     background-color: rgba(255, 255, 255, 0.75);
     backdrop-filter: blur(15px);
+    -moz-backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    /* filter: blur(15px); */
     /* box-shadow: 0 4px 8px rgb(152 155 168 / 15%); */
 }
 
