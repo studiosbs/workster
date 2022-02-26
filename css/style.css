@@ -553,3 +553,23 @@ footer {
     color: #8083A3;
     font-weight: 600;
 }
+
+.top-img{
+    width: 50px !important;
+    height: 50px;
+    background-color: #8e8e8e;
+    border-radius: 40px !important;
+}
+.top-cards .card-title{
+    font-weight: 700 !important;
+    font-size: 14px;
+}
+.item .card-paragraph{
+    color: #8083A3;
+    font-size: 14px;
+}
+
+.top-cards .item{
+    padding: 35px;
+    background-color: #f5f5fa;
+}
