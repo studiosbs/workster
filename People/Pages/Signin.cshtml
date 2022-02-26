@@ -1,8 +1,8 @@
-﻿@page "/signup"
-@model People.Pages.SignupModel
+﻿@page "/signin"
+@model People.Pages.SigninModel
 @{
     Layout = null;
-    ViewData["Title"] = "Sign Up";
+    ViewData["Title"] = "Sign In";
 }
 
 <!DOCTYPE html>
@@ -34,8 +34,8 @@
                     <div class="text justify-content-end">
                         <h1 class="title m-5">Stay updated on your network</h1>
                         <div class="ask-btn d-flex justify-content-between align-items-center m-5">
-                            <p class="text-white">Already have an account?</p>
-                            <button class="btn pt-3 pb-3 p-5">Sign In</button>
+                            <p class="text-white">You don't have an account?</p>
+                            <button class="btn pt-3 pb-3 p-5">Sign Up</button>
                         </div>
                     </div>
                 </div>
@@ -45,21 +45,28 @@
                             <img src="img/icon.png" class="m-5 mt-0" height="60px" alt="">
                         </a>
                     </div>
-                    <h2>Sign Up</h2>
+                    <h2>Sign In</h2>
                     <p class="mb-3 text">Take the next step and sign in to your account</p>
                     <form action="" class="w-100 mt-4">
                         <div class="form-floating mb-3">
                             <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
                             <label for="floatingInput" class="label">Email address</label>
                         </div>
-                        <div class="form-check mb-4">
-                            <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                            <label class="form-check-label" for="flexCheckDefault">
-                              I agree with the terms and conditions
-                            </label>
+                        <div class="form-floating mb-3">
+                            <input type="password" class="form-control password" id="floatingPassword" placeholder="Password">
+                            <label class="label" for="floatingPassword">Password</label>
+                        </div>
+                        <div class="signin-libks d-flex justify-content-between">
+                            <div class="form-check mb-4">
+                                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                <label class="form-check-label" for="flexCheckDefault">
+                                  Remember me
+                                </label>
+                            </div>
+                            <a href="" class="reset d-flex justify-content-end">Reset password</a>
                         </div>
                         <div class="col-auto">
-                            <button type="submit" class="btn btn-success w-100 pt-3 pb-3">Sign Up</button>
+                            <button type="submit" class="btn btn-success w-100 pt-3 pb-3">Sign In</button>
                           </div>
                     </form>
                     <div class="divider w-100 mt-3 mb-3 col-4"></div>
@@ -73,11 +80,11 @@
                               <path fill="#EA4335" d="M -14.754 43.989 C -12.984 43.989 -11.404 44.599 -10.154 45.789 L -6.734 42.369 C -8.804 40.429 -11.514 39.239 -14.754 39.239 C -19.444 39.239 -23.494 41.939 -25.464 45.859 L -21.484 48.949 C -20.534 46.099 -17.884 43.989 -14.754 43.989 Z"/>
                             </g>
                             </svg>
-                            Sign Up with Google
+                            Sign In with Google
                         </button>
                         <button class="btn d-flex justify-content-center rounded-pill p-3 w-100">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 14222 14222"><circle cx="7111" cy="7112" r="7111" fill="#1977f3"/><path d="M9879 9168l315-2056H8222V5778c0-562 275-1111 1159-1111h897V2917s-814-139-1592-139c-1624 0-2686 984-2686 2767v1567H4194v2056h1806v4969c362 57 733 86 1111 86s749-30 1111-86V9168z" fill="#fff"/></svg>
-                            Sign Up with Facebook
+                            Sign In with Facebook
                         </button>
                     </div>
                 </div>

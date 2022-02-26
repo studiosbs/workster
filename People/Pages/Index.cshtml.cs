@@ -10,7 +10,5 @@ namespace People.Pages
         {
             Locations = new[] { "Tashkent, UZB", "Namangan, UZB", "Andijan, UZB" };
         }
-
-        public void OnPost() => RedirectToPage("Signup");
     }
 }
