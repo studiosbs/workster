@@ -50,34 +50,6 @@
     box-sizing: content-box;
 }
 
-html:not(.style-scope) {
-    --ytd-scrollbar-width: 8px;
-}
-
-html:not(.style-scope)[standardized-themed-scrollbar] {
-    scrollbar-color: var(--yt-spec-text-secondary) transparent;
-}
-
-
-
-.ytp-big-mode:not(.ytp-touch-mode) ::-webkit-scrollbar {
-    width: 15px
-}
-
-.html5-video-player:not(.ytp-touch-mode) ::-webkit-scrollbar-track {
-    background-color: #424242
-}
-
-.html5-video-player:not(.ytp-touch-mode) ::-webkit-scrollbar-thumb {
-    background-color: #8e8e8e;
-    border: 1px solid #424242;
-    border-radius: 5px;
-}
-
-.ytp-big-mode:not(.ytp-touch-mode) ::-webkit-scrollbar-thumb {
-    border-radius: 8px
-}
-
 body {
     font-family: 'Inter', sans-serif;
 }
@@ -191,8 +163,8 @@ body::-webkit-scrollbar-thumb:hover {
     border-radius: 40px;
     margin-bottom: 45px;
     box-shadow: 0px 4px 7px 0px #999babd0;
-    -webkit-box-shadow: 0px 5px 5px 0px #999babd0;
-    -moz-box-shadow: 0px 5px 7px 0px #999babd0;
+    -webkit-box-shadow: 0px 4px 7px 0px #999babd0;
+    -moz-box-shadow: 0px 4px 7px 0px #999babd0;
 }
 
 .header-form button {
@@ -571,8 +543,11 @@ footer {
 
 .top-cards .item{
     padding: 35px;
-    background-color: #f5f5fa;
+    background-color: #fff;
     margin-right: 0 !important;
+    box-shadow: 0px 4px 7px 0px #999babd0;
+    -webkit-box-shadow: 0px 4px 7px 0px #999babd0;
+    -moz-box-shadow: 0px 4px 7px 0px #999babd0;
 }
 .slick-arrow{
     background-color: #f5f5fa !important;
