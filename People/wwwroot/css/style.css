@@ -572,4 +572,22 @@ footer {
 .top-cards .item{
     padding: 35px;
     background-color: #f5f5fa;
+    margin-right: 0 !important;
+}
+.slick-arrow{
+    background-color: #f5f5fa !important;
+    padding: 24px;
+    border-radius: 50%;
+}
+.slick-prev::before, .slick-next::before{
+    font-family: 'Font Awesome 6 Free';
+    font-style: normal;
+    font-weight: 900;
+    color: #8083A3 !important;
+}
+.slick-prev{
+    left: -70px;
+}
+.slick-next{
+    right: -85px;
 }
