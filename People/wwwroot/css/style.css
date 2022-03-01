@@ -568,3 +568,6 @@ footer {
 .slick-next{
     right: -85px;
 }
+.dropdown-menu .dropdown-item {
+    width: auto !important;
+}
