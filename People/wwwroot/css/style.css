@@ -571,3 +571,16 @@ footer {
 .dropdown-menu .dropdown-item {
     width: auto !important;
 }
+.sponsors-logo{
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    opacity: 0.5;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.sponsors-logo:hover{
+    filter: grayscale(0%);
+    -webkit-filter: grayscale(0%);
+    -moz-filter: grayscale(0%);
+    opacity: 1;
+}
