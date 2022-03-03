@@ -125,12 +125,16 @@ body::-webkit-scrollbar-thumb:hover {
     color: #000 !important;
 }
 
-.header .container {
+.header .container, .app-header .container {
     border-radius: 25px;
     padding: 100px 0;
-    background-image: url(../img/header-bg.png);
     background-size: cover;
+    background-image: url(../img/header-bg.png);
     background-position: center;
+}
+
+.header-img{
+    margin-bottom: 100px;
 }
 
 .header .text {
@@ -140,6 +144,15 @@ body::-webkit-scrollbar-thumb:hover {
 .header h2 {
     font-weight: 800;
     font-size: 62px;
+}
+.header h3{
+    font-weight: 800;
+    font-size: 48px;
+}
+
+.app-text p{
+    font-size: 14px;
+    line-height: 20px;
 }
 
 .header p {
@@ -544,7 +557,6 @@ footer {
 .top-cards .item{
     padding: 35px;
     background-color: #fff;
-    margin-right: 0 !important;
     box-shadow: 0px 4px 7px 0px #999babd0;
     -webkit-box-shadow: 0px 4px 7px 0px #999babd0;
     -moz-box-shadow: 0px 0px 7px 0px #999babd0;
@@ -583,4 +595,7 @@ footer {
     -webkit-filter: grayscale(0%);
     -moz-filter: grayscale(0%);
     opacity: 1;
+}
+header{
+    border-bottom: 3px solid #f5f5fa;
 }
