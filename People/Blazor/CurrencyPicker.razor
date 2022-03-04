@@ -1,0 +1,23 @@
+﻿<div class="btn-group dropup">
+    <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+        Currency - @(ChosenCurrency ?? "UZS")
+    </button>
+    <ul class="dropdown-menu">
+        @foreach (var curr in Currencies)
+        {
+            <li>
+                <a asp-page="Index" class="dropdown-item" 
+                @onclick="@(() => ChosenCurrency = curr)">
+                    @curr
+                </a>
+            </li>
+        }
+    </ul>
+</div>
+
+@code {
+    public IEnumerable<String> Currencies { get; set; } =
+        new[] { "UZS", "USD", "EUR", "CHF" };
+
+    public string ChosenCurrency { get; set; }
+}
