@@ -1,0 +1,54 @@
+﻿#components-reconnect-modal {
+    display: none;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    z-index: 1000;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.8;
+    text-align: center;
+    font-weight: bold;
+}
+
+    #components-reconnect-modal.components-reconnect-show {
+        display: block;
+    }
+
+        #components-reconnect-modal.components-reconnect-show div.reconnecting {
+            display: block;
+        }
+
+div.reconnecting {
+    display: none;
+}
+
+#components-reconnect-modal.components-reconnect-failed {
+    display: block;
+}
+
+    #components-reconnect-modal.components-reconnect-failed div.failedToConnect {
+        display: block;
+    }
+
+div.failedToConnect {
+    display: none;
+}
+
+#components-reconnect-modal.components-reconnect-rejected {
+    display: block;
+}
+
+    #components-reconnect-modal.components-reconnect-rejected div.connectionRejected {
+        display: block;
+    }
+
+div.connectionRejected {
+    display: none;
+}
+
+#components-reconnect-modal.components-reconnect-hide {
+    display: none;
+}

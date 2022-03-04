@@ -19,11 +19,13 @@
     <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
     <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/blazorSpecific.css" />
     <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
     <link rel="icon" href="img/favicon_32x32.png" sizes="32x32">
     <link rel="icon" href="img/favicon_48x48.png" sizes="48x48">
     <link rel="icon" href="img/favicon_96x96.png" sizes="96x96">
     <link rel="icon" href="img/favicon_144x144.png" sizes="144x144">
+    <base href="~/" />
 </head>
 <body>
     <header class="fixed-top blur-effect">
@@ -31,7 +33,7 @@
             <div class="row justify-content-center">
                 <div class="col-10 text-center">
                     <nav class="navbar">
-                        <a class="navbar-brand" href="#">
+                        <a class="navbar-brand" asp-page="Index">
                           <img src="img/people-logo.png" alt="" height="45">
                         </a>
                         <ul class="nav justify-content-end">
@@ -44,6 +46,7 @@
                           <li class="nav-item">
                             <a class="nav-link" href="#">Education</a>
                           </li>
+                          <component type="typeof(People.Blazor.LanguagePicker)" render-mode="ServerPrerendered" />
                           <a class="btn sign-in p-2" asp-page="Signin"><i class="fa-solid fa-arrow-right-to-bracket"></i> Sign In</a>
                           <a class="btn join-now" asp-page="Signup"><i class="fa-solid fa-user-group"></i> Join Now</a>
                         </ul>
@@ -268,28 +271,7 @@
               <div class="copyright-bar">&copy;<script>document.write(new Date().getFullYear());</script> All rights reserved</div>
             </div>
             <div class="col-4 language d-flex justify-content-end">
-              <div class="btn-group dropup">
-                <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                  Currency - @Model.ChosenCurrency
-                </button>
-                <ul class="dropdown-menu">
-                    @foreach (var curr in Model.Currencies)
-                    {
-                        <li><a asp-page="Index" class="dropdown-item">@curr</a></li>
-                    }
-                </ul>
-              </div>
-              <div class="btn-group dropup">
-                <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                  @Model.ChosenLanguage <i class="fa-solid fa-earth-europe"></i>
-                </button>
-                <ul class="dropdown-menu">
-                    @foreach (var lang in Model.Languages)
-                    {
-                        <li><a asp-page="Index" class="dropdown-item">@lang</a></li>
-                    }
-                </ul>
-              </div>
+              <component type="typeof(People.Blazor.CurrencyPicker)" render-mode="ServerPrerendered" />
             </div>
           </div>
         </div>
@@ -297,6 +279,20 @@
     </footer>
     <div class="scrollbar"></div>
 
+    <!-- For overriding default Blazor server-side messages -->
+    <div id="components-reconnect-modal">
+        <div class="reconnecting">
+        </div>
+        <div class="failedToConnect">
+        </div>
+        <div class="connectionRejected">
+        </div>
+    </div>
+
+
+    <!-- Required for Blazor components -->
+    <script type="text/javascript" src="~/js/blazor.polyfill.min.js"></script>
+    <script src="~/_framework/blazor.server.js"></script>
     <script src="js/jquery.min.js"></script>
     <script type="text/javascript" src="slick/slick.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@("@")popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
