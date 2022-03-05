@@ -219,12 +219,12 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .header-form select {
-    width: 225px;
+    width: auto;
     padding: 20px 40px;
     font-weight: 700;
     border-radius: 31px;
     margin: 10px 15px;
-    background: #f6f5fb;
+    background-color: #f6f5fb;
     border: none;
     font-size: 14px;
 }
@@ -366,9 +366,9 @@ h6 {
     color: #fff;
 }
 
-.hire {
+/* .hire {
     margin-bottom: 130px;
-}
+} */
 
 footer {
     background: #fff;
@@ -635,4 +635,21 @@ header{
 }
 #page{
     display: none;
+}
+.notification i{
+    font-size: 18px;
+}
+.profile{
+    font-size: 26px;
+}
+/* .form-select option{
+    text-align: center;
+} */
+.filter-select{
+    padding: 10px 14px !important;
+    border: 2px solid #f5f5fa !important;
+    background-color: #fff !important;
+    width: 140px !important;
+    font-size: 14px;
+    margin: 10px !important;
 }
