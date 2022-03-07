@@ -34,6 +34,43 @@
     class: ["lang_uz language-item", {
         active: "ru" == o.activeLanguage
     }]
+},
+[Object(t["h"])("span", null, Object(t["F"])(r.titles.phone[o.activeLanguage]), 1)], 8, ["href"])]), Object(t["h"])("li", {
+    class: "language-toggler",
+    onClick: e[9] || (e[9] = function() {
+        return o.toggleLanguage && o.toggleLanguage.apply(o, arguments)
+    }
+    )
+}, [Object(t["h"])("div", {
+    class: ["lang_ru language-item", {
+        active: "uz" == o.activeLanguage
+    }]
+}, [w, O], 2), Object(t["h"])("div", {
+    class: ["lang_uz language-item", {
+        active: "ru" == o.activeLanguage
+    }]
+}, [k, j], 2)])], 2), Object(t["h"])("div", {
+    class: ["mobile-overlay", {
+        show: r.mobileMenu
+    }],
+    onClick: e[10] || (e[10] = function() {
+        return o.mobileMenuToggle && o.mobileMenuToggle.apply(o, arguments)
+    }
+    )
+}, null, 2), Object(t["h"])("ul", null, [Object(t["h"])("li", {
+    class: "language-toggler language-togglerMob",
+    onClick: e[11] || (e[11] = function() {
+        return o.toggleLanguage && o.toggleLanguage.apply(o, arguments)
+    }
+    )
+}, [Object(t["h"])("div", {
+    class: ["lang_ru language-item", {
+        active: "uz" == o.activeLanguage
+    }]
+}, [q, P], 2), Object(t["h"])("div", {
+    class: ["lang_uz language-item", {
+        active: "ru" == o.activeLanguage
+    }]
 }, [L, x], 2)])]), Object(t["h"])("button", {
     ref: "burgerMenuButton",
     class: "navigation__button",
@@ -70,7 +107,7 @@ data: function() {
         viewportWidth: window.innerWidth,
         courses: [{
             name: {
-                ru: "ВЕБ ПРОГРАММИРОВАНИЕ",
+                ru: "Найти работу в Ташкенте",
                 uz: "WEB DASTURLASH"
             },
             id: "web-development"

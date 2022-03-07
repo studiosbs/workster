@@ -653,3 +653,221 @@ header{
     font-size: 14px;
     margin: 10px !important;
 }
+
+@media only screen and (max-width: 480px) {
+
+    #localize-widget a,
+    #localize-active-lang {
+        padding: 0 10px !important;
+        min-width: auto !important;
+        font-size: 13px !important;
+        height: 33px !important;
+        line-height: 32px !important;
+    }
+}
+
+#localize-widget.localize-right {
+    right: 30px;
+}
+
+#localize-widget.localize-left {
+    left: 30px;
+}
+
+#localize-widget,
+a#localize-widget,
+p#localize-widget,
+span#localize-widget,
+div#localize-widget {
+    background: 0 0;
+    border: 0;
+    font-size: 100%;
+    margin: 0;
+    outline: 0;
+    padding: 0;
+    vertical-align: baseline;
+    font-family: sans-serif;
+}
+
+#localize-widget {
+    display: none;
+    max-height: 90%;
+    max-width: 250px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    margin-bottom: 0;
+    margin-top: 0;
+    position: fixed;
+    bottom: 0;
+    z-index: 999999;
+}
+
+#localize-active-lang,
+#localize-widget-langs a {
+    max-width: 250px;
+    min-width: 120px;
+    text-decoration: none;
+    cursor: pointer;
+    border-bottom: 0;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: clip;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+
+#localize-widget-langs a {
+    display: none;
+    font-size: 12px;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 5px;
+}
+
+#localize-active-lang {
+    font-size: 14px !important;
+    text-decoration: none;
+    text-align: center !important;
+    height: 42px;
+    line-height: 42px;
+    font-weight: normal !important;
+    padding: 0 20px;
+    display: block;
+}
+
+#localize-active-lang span {
+    padding: 5px;
+    display: inline-block;
+    border: 3px solid currentColor;
+    border-radius: 10px;
+    margin-bottom: 3px;
+    margin-right: 2px;
+    vertical-align: middle;
+}
+
+#localize-widget.localize-dark {
+    color: #ffffff !important;
+    background: rgba(0, 0, 0, .8) !important;
+}
+
+#localize-widget.localize-light {
+    color: #000000 !important;
+    background: rgba(245, 245, 255, .8) !important;
+    backdrop-filter: blur(14px);
+    border: 1px solid #f5f5fa;
+}
+
+.localize-dark a,
+.localize-dark #localize-powered-by {
+    color: #ffffff !important;
+}
+
+.localize-light a,
+.localize-light #localize-powered-by {
+    color: #000000 !important;
+}
+
+.localize-dark #localize-active-lang {
+    background: #000000 !important;
+    color: #ffffff !important;
+}
+
+.localize-light #localize-active-lang {
+    background: #f5f5fa !important;
+    color: #000000 !important;
+}
+
+#localize-widget.localize-right-top,
+#localize-widget.localize-left-top {
+    top: 0;
+    bottom: auto;
+    margin-top: -1px;
+}
+
+#localize-widget.localize-right-bottom,
+#localize-widget.localize-left-bottom {
+    margin-bottom: -1px;
+}
+
+#localize-widget.localize-right-bottom,
+#localize-widget.localize-right-top {
+    right: 30px;
+}
+
+#localize-widget.localize-left-bottom,
+#localize-widget.localize-left-top {
+    left: 30px;
+}
+
+#localize-widget.localize-right-center,
+#localize-widget.localize-left-center {
+    top: 50%;
+    bottom: auto;
+    max-height: 45%;
+}
+
+#localize-widget.localize-left-center {
+    left: 0;
+    margin-left: -1px;
+}
+
+#localize-widget.localize-right-center {
+    right: 0;
+    margin-right: -1px;
+}
+
+#localize-powered-by {
+    display: none;
+    width: 100% !important;
+    text-align: center;
+    opacity: 0.8;
+}
+
+#localize-powered-by span {
+    font-size: 10px;
+    padding: 8px 10px;
+    max-width: 250px;
+    height: 40px;
+    line-height: 40px;
+}
+
+#localize-powered-by a {
+    color: inherit;
+}
+
+#localize-powered-by a:hover {
+    text-decoration: none;
+}
+
+#localize-widget.show #localize-widget-langs:not(:empty) {
+    padding-top: 10px;
+}
+
+#localize-widget-langs a:hover {
+    opacity: 0.6;
+}
+
+#localize-widget.show #localize-powered-by {
+    display: block !important;
+}
+
+#localize-widget.show #localize-widget-langs a {
+    display: block !important;
+}
+
+@media (hover: hover),
+screen and (-ms-high-contrast: active),
+(-ms-high-contrast: none) {
+    #localize-widget:hover #localize-widget-langs:not(:empty) {
+        padding-top: 10px;
+    }
+
+    #localize-widget:hover #localize-widget-langs a {
+        display: block !important;
+    }
+
+    #localize-widget:hover #localize-powered-by {
+        display: block !important;
+    }
+}

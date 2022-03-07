@@ -4,9 +4,10 @@ const wait = (delay = 0) =>
 document.addEventListener('DOMContentLoaded', () =>
   wait(1000).then(() => {
     /* document.querySelector("#load").classList("load-diabled"); */
-    $("#load-img").fadeOut("slow");
-    document.querySelector('#page').style.display="block";
+    $("#load").fadeOut("slow");
+    /* document.querySelector('#page').style.display="block"; */
     wait(800).then(() => {
-      document.querySelector('#load').style.display="none";
+      /* document.querySelector('#load').style.display="none"; */
+      $("#page").slideToggle();
     });
   }));
