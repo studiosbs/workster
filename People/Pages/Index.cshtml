@@ -211,7 +211,7 @@
       </div>
     </section>
 
-    <section class="hire">
+    <section class="hire mb-5">
       <div class="container">
         <div class="row justify-content-center">
           <div class="hire-content d-flex justify-content-center align-items-center">
@@ -279,18 +279,9 @@
     </footer>
     <div class="scrollbar"></div>
 
-    <!-- For overriding default Blazor server-side messages -->
-    <div id="components-reconnect-modal">
-        <div class="reconnecting">
-        </div>
-        <div class="failedToConnect">
-        </div>
-        <div class="connectionRejected">
-        </div>
-    </div>
+    <partial name="_BlazorPartial" />
 
 
-    <!-- Required for Blazor components -->
     <script type="text/javascript" src="~/js/blazor.polyfill.min.js"></script>
     <script src="~/_framework/blazor.server.js"></script>
     <script src="js/jquery.min.js"></script>
