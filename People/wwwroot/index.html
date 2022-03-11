@@ -38,16 +38,16 @@
                           <li class="nav-item">
                             <a class="nav-link" href="#">Образование</a>
                           </li>
-                          <li class="nav-item dropdown">
+                          <!-- <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                               RU
                             </a>
                             <ul class="dropdown-menu language-toggler" aria-labelledby="navbarDropdown">
-                              <!-- <li><a class="dropdown-item" href="#">English</a></li> -->
+                              <li><a class="dropdown-item" href="#">English</a></li>
                               <li><a class="dropdown-item language-item lang_uz" href="uz">UZ</a></li>
                               <li><a class="dropdown-item language-item lang_ru" href="">RU</a></li>
                             </ul>
-                          </li>
+                          </li> -->
                           <a class="btn sign-in p-2" href="signin.html" type="submit"><i class="fa-solid fa-arrow-right-to-bracket"></i> Войти</a>
                           <a class="btn join-now" href="signup.html"  type="submit"><i class="fa-solid fa-user-group"></i> Присоединяйся Сейчас</a>
                         </ul>
@@ -281,6 +281,21 @@
                   <li><a href="" class="dropdown-item">Russian</a></li>
                   <li><a href="" class="dropdown-item">Uzbek</a></li>
                 </ul>
+              </div>
+              <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBackdrop" aria-controls="#offcanvasWithBackdrop">Русский</button>
+
+              <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasWithBackdrop" aria-labelledby="offcanvasWithBackdropLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasWithBackdropLabel">Choose language</h5>
+                  <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body small">
+                  <ul class="nav flex-column">
+                    <li class="nav-item"><a class="nav-link p-1" href="">Русский</a></li>
+                    <li class="nav-item"><a class="nav-link p-1" href="">O'zbekcha</a></li>
+                    <li class="nav-item"><a class="nav-link p-1" href="">English</a></li>
+                  </ul>
+                </div>
               </div>
               <!-- <div class="btn-group dropup">
                 <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
