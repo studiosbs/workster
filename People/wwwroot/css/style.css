@@ -627,7 +627,7 @@ header{
     transition: opacity 3s linear 1s;
 }
 .loading img{
-    width: 12%;
+    width: 10%;
     opacity: 1;
 }
 .load-disabled .loading{
