@@ -675,7 +675,8 @@ header{
     box-sizing: border-box;
     /* width: calc(100% - 32px); */
     border-radius: 24px;
-    box-shadow: 0 10px 10px -5px rgba(0,0,0,0.25);
+    border: none;
+    box-shadow: 0 8px 20px rgb(117 115 111 / 20%);
 }
 .app-header .navbar{
     margin: 10px 25px !important;
@@ -686,4 +687,14 @@ header{
     width: 100%;
     height: 100vh;
     margin: 0 !important;
+}
+
+._1UovmbGjc3DKtpLGbwvuqV {
+    display: flex;
+    width: 48px !important;
+    height: 48px !important;
+    pointer-events: visiblePainted;
+    border-radius: 50% !important;
+    background-color: var(--bg-main-color);
+    box-shadow: 0 8px 20px rgb(117 115 111 / 20%);
 }
