@@ -665,18 +665,17 @@ header{
     font-size: 14px;
     margin: 10px !important;
 }
-<<<<<<< HEAD
 
-.app-header{
+.App__header{
     position: absolute;
     margin: 16px;
     box-sizing: border-box;
     /* width: calc(100% - 32px); */
     border-radius: 24px;
     border: none;
-    box-shadow: 0 8px 20px rgb(117 115 111 / 20%);
+    box-shadow: 0 8px 20px rgb(117 115 111 / 20%) !important;
 }
-.app-header .navbar{
+.App__header .navbar{
     margin: 10px 25px !important;
     padding: 0;
     height: 50px;
@@ -696,5 +695,10 @@ header{
     background-color: var(--bg-main-color);
     box-shadow: 0 8px 20px rgb(117 115 111 / 20%);
 }
-=======
->>>>>>> parent of 84c5f9c (Update app.html (Add map and some navbar updates))
+
+.layout-control-group, ._side_left{
+    display: none !important;
+}
+.map-widget-layout-view__bottom-layout{
+    display: none !important;
+}
