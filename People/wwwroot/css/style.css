@@ -132,7 +132,7 @@ body::-webkit-scrollbar-thumb:hover {
     color: #000 !important;
 }
 
-.header .container {
+.header .container, .app-header .container {
     border-radius: 25px;
     padding: 100px 0;
     background-size: cover;
@@ -648,9 +648,6 @@ header{
 #page{
     display: none;
 }
-.page{
-    height: 100vh;
-}
 .notification i{
     font-size: 18px;
 }
@@ -668,6 +665,7 @@ header{
     font-size: 14px;
     margin: 10px !important;
 }
+<<<<<<< HEAD
 
 .app-header{
     position: absolute;
@@ -698,3 +696,5 @@ header{
     background-color: var(--bg-main-color);
     box-shadow: 0 8px 20px rgb(117 115 111 / 20%);
 }
+=======
+>>>>>>> parent of 84c5f9c (Update app.html (Add map and some navbar updates))
