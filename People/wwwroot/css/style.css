@@ -509,7 +509,7 @@ footer {
 }
 
 .form-control {
-    height: auto !important;
+    /* height: auto !important; */
     color: #000;
     font-weight: 800;
     border-radius: 10px;
@@ -678,6 +678,12 @@ header{
     margin: 0 !important;
 }
 
+.app{
+    box-sizing: border-box;
+    height: 100%;
+    padding: 16px !important;
+}
+
 .space{
     position: absolute;
     right: 16px;
@@ -709,12 +715,21 @@ header{
     flex-direction: column;
     justify-content: center;
     width: 360px !important;
-    margin: 0 16px;
+    max-height: calc(100% - 70px);
+    transition: margin 1s ease 0s;
+}
+.form-main{
+    overflow: scroll;
+    scrollbar-width: 0;
+}
+.form-main::-webkit-scrollbar, .form-control::-webkit-scrollbar {
+    display: none;
 }
 .search-form{
+    position: relative;
     margin-top: 30px;
     margin-bottom: 30px;
-    height: 100%;
+    max-height: 100%;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -752,7 +767,7 @@ header{
 }
 .send-btn, .submit{
     text-align: left;
-    background-color: #fff;
+    background-color: #f5f5fa;
     height: 60px;
     border-radius: 16px;
 }
@@ -763,7 +778,17 @@ header{
     font-weight: 500;
 }
 .submit-btn{
-    padding-top: 16px;
+    padding: 16px;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    bottom: 0;
+    border-radius: 24px;
+    box-shadow: 0 -4px 20px rgb(117 115 111 / 20%);
+    background-color: #fff;
+    box-sizing: border-box;
+    margin-bottom: 0;
+    transition: box-shadow .5s ease-in-out;
 }
 .submit {
     transition: background-color .15s linear;
@@ -774,7 +799,42 @@ header{
 .send-btn:focus{
     background-color: #fff;
 }
-/*Chrome*/
+.submit:focus{
+    background-color: #f5f5fa;
+}
+.submit:hover{
+    color: #fff;
+}
+
+.width-machine {
+    /*   Sort of a magic number to add extra space for number spinner */
+    padding: 0 1rem;
+  }
+  
+  .textarea {
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    resize: both;
+    min-height: 40px;
+    line-height: 20px;
+  }
+  
+  .textarea[contenteditable]:empty::before {
+    content: "Placeholder still possible";
+    color: gray;
+  }
+  
+  p strong {
+    display: block;
+  }
+  h1 {
+    border-bottom: 5px solid blue;
+  }
+  h2 {
+    border-bottom: 2px solid navy;
+  }
+
 @media screen and (-webkit-min-device-pixel-ratio:0) {
     input[type='range'] {
       overflow: hidden;
