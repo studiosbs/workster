@@ -500,6 +500,16 @@ footer {
 
 .signup-form .btn-success {
     border-radius: 30px;
+    font-weight: 500;
+}
+
+.signup-form__title{
+    font-weight: 800;
+}
+
+.signup-form label{
+    font-weight: 600;
+    color: #8083A3;
 }
 
 .form-check-label {
