@@ -450,9 +450,8 @@ footer {
     background-image: url(../img/header-bg.png);
     background-position: center;
     background-size: cover;
-    padding-top: 120px;
-    padding-bottom: 75px;
-    margin-right: 120px !important;
+    padding: 120px 0 75px;
+    margin-right: 100px !important;
 }
 
 .background .title,
