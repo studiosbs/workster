@@ -502,6 +502,10 @@ footer {
     font-weight: 500;
 }
 
+.signup-form .border{
+    border: 2px dashed #8e8e8e !important;
+}
+
 .signup-form__title{
     font-weight: 800;
 }
