@@ -685,7 +685,6 @@ header{
 .App__header .navbar{
     margin: 10px 25px !important;
     padding: 0;
-    height: 50px;
 }
 .app iframe{
     width: 100%;
@@ -740,58 +739,7 @@ header{
 .form-main::-webkit-scrollbar, .form-control::-webkit-scrollbar {
     display: none;
 }
-.search-form{
-    position: relative;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    max-height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    border-radius: 24px;   
-    padding: 16px;
-    box-shadow: 0 8px 20px rgb(117 115 111 / 20%);
-    background-color: rgba(255, 255, 255, 0.75);
-    -moz-background-color: rgb(255, 255, 255);
-    backdrop-filter: blur(15px);
-    -moz-backdrop-filter: blur(15px);
-    -webkit-backdrop-filter: blur(15px);
-}
-
-._2oWxb_0-bPs-h2QYHIkilk {
-    position: relative;
-    margin-bottom: 8px;
-}
-.App__header-skeleton {
-    height: 70px;
-    border-radius: 24px;
-    box-shadow: 0 8px 20px rgb(117 115 111 / 20%);
-}
-
-.search-form .form-control, .search-form .form-select{
-    border: none;
-    border-bottom: 3px solid #f5f5fa;
-    width: 100%;
-    border-radius: 0;
-    background-color: transparent !important;
-    box-shadow: none !important;
-}
-.search-form .form-control:focus, .search-form .form-control:focus{
-    border-bottom: 3px solid #00D066;
-    box-shadow: none !important;
-}
-.send-btn, .submit{
-    text-align: left;
-    background-color: #f5f5fa;
-    height: 60px;
-    border-radius: 16px;
-}
-.submit{
-    background-color: #00D066;
-    text-align: center;
-    color: #fff;
-    font-weight: 500;
-}
+    
 .submit-btn{
     padding: 16px;
     position: absolute;
@@ -851,4 +799,32 @@ header{
 }
 .group .form-check input:checked{
     background-color: #00D066 !important;
+}
+
+.search-form form {
+    display: flex;
+    border-radius: 40px;
+    margin-right: 20px;
+    box-shadow: 0px 3px 4px 0px #999bab4d;
+    -webkit-box-shadow: 0px 3px 4px 0px #999bab4d;
+    -moz-box-shadow: 0px 0px 3px 0px #999bab4d;
+}
+
+.search-form button {
+    background: #00D066;
+    border-radius: 31px;
+    border: none;
+    color: #fff;
+    margin: 5px;
+    padding: 10px 13px;
+    font-size: 12px;
+}
+
+.search-form input {
+    border: none;
+    /* height: 62px; */
+    font-weight: 700;
+    background: none;
+    border-radius: 0 !important;
+    font-size: 14px;
 }
