@@ -199,7 +199,7 @@ body::-webkit-scrollbar-thumb:hover {
 
 .header-form input {
     border: none;
-    height: 62px;
+    /* height: 62px; */
     font-weight: 700;
     background: none;
     border-radius: 0 !important;
@@ -250,7 +250,7 @@ body::-webkit-scrollbar-thumb:hover {
     background-size: cover;
     background-position: bottom;
     border-radius: 30px;
-    height: 364px;
+    /* height: 364px; */
 }
 
 .card-1,
@@ -291,6 +291,7 @@ body::-webkit-scrollbar-thumb:hover {
     background: #fff;
     color: #000;
     margin: 4px;
+    margin-left: 0;
     border-radius: 26px;
     font-size: 12px;
     font-weight: 500;
@@ -360,7 +361,7 @@ h6 {
 
 .hire-link {
     background: #00D066;
-    padding: 25px 92px;
+    padding: 25px 80px;
     border-radius: 50px;
     color: #fff;
 }
@@ -590,7 +591,8 @@ footer {
 }
 .slick-arrow{
     background-color: #f5f5fa !important;
-    padding: 24px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
 }
 .slick-prev::before, .slick-next::before{
