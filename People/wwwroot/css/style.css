@@ -834,3 +834,70 @@ header{
     border-radius: 0 !important;
     font-size: 14px;
 }
+
+.list-group{
+    border-radius: 25px;
+}
+
+.list-group-item{
+    padding: 15px 25px;
+    font-weight: 800;
+    font-size: 16px;
+    border: 2px solid #f5f5fa;
+}
+
+.list-group-item a{
+    color: #000;
+}
+.list-group-link{
+    display: flex;
+}
+.list-group-img{
+    margin-right: 14px;
+    background-color: #f5f5fa;
+    height: 48.5px;
+    border-radius: 50%;
+}
+.list-group-img img{
+    height: 48.5px; 
+    border-radius: 50%;
+}
+.list-group-link p{
+    margin: 0;
+}
+.list-group-item:last-child{
+    background-color: #f5f5fa;
+    text-align: center !important;
+}
+.list-group-item:last-child a{
+    color: #8083A3;
+}
+.list-group-item span{
+    color: #8083A3;
+    font-weight: 500;
+    font-size: 15px;
+}
+.follow-btn{
+    padding: 10px 15px !important;
+    font-size: 12px;
+    height: 100%;
+    font-weight: 500;
+    border-radius: 12px !important;
+}
+.post-form{
+    box-shadow: 0px 3px 4px 0px #999bab4d;
+    -webkit-box-shadow: 0px 3px 4px 0px #999bab4d;
+    -moz-box-shadow: 0px 0px 3px 0px #999bab4d;
+    border-radius: 20px;
+    padding: 20px 25px;
+}
+.post-form form{
+    display: flex;
+}
+.image{
+    padding: 10px 15px;
+    border-radius: 50%;
+}
+.post-form input{
+    border: none;
+}
