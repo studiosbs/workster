@@ -1,55 +1,317 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>People</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/all.css">
-    <link rel="stylesheet" href="css/owl.carousel.css">
-    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
-    <link rel="icon" href="img/favicon_32x32.png" sizes="32x32">
-    <link rel="icon" href="img/favicon_48x48.png" sizes="48x48">
-    <link rel="icon" href="img/favicon_96x96.png" sizes="96x96">
-    <link rel="icon" href="img/favicon_144x144.png" sizes="144x144">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>People</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/all.css">
+  <link rel="stylesheet" href="css/font.css">
+  <link rel="stylesheet/scss" href="css/price.scss">
+  <link rel="stylesheet" href="css/owl.carousel.css">
+  <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+  <link rel="icon" href="img/favicon_32x32.png" sizes="32x32">
+  <link rel="icon" href="img/favicon_48x48.png" sizes="48x48">
+  <link rel="icon" href="img/favicon_96x96.png" sizes="96x96">
+  <link rel="icon" href="img/favicon_144x144.png" sizes="144x144">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/load.js"></script>
+
 </head>
+<div id="load">
+  <div class="loading"><img src="img/people-logo.png" id="load-img" alt=""></div>
+</div>
+
 <body>
-    <header class="fixed-top blur-effect">
+  <div id="page" class="page">
+    <div class="app">
+      <header class="fixed-top blur-effect App__header mb-5">
         <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-10 text-center">
-                    <nav class="navbar navbar-expand-lg">
-                        <a class="navbar-brand" href="#">
-                          <img src="img/icon.png" alt="" height="45">
-                        </a>
-                        <ul class="navbar-nav justify-content-start">
-                          <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Jobs</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#">Messages</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link" href="#">Updates</a>
-                          </li>
-                        </ul>
-                      </nav>
+          <div class="row">
+            <div class="navbar d-flex align-items-center justify-content-center">
+              <div class="col-10 d-flex justify-content-between">
+                <div class="list-left d-flex align-items-center">
+                  <a class="navbar-brand" href="#">
+                    <img src="img/icon.png" alt="" height="37">
+                  </a>
+                  <ul class="nav">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#">Feed</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Contacts</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Jobs</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Messages</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Updates</a>
+                    </li>
+                  </ul>
                 </div>
+                <div class="list-middle justify-content-center">
+      
+                </div>
+                <div class="list-rigt justify-content-end">
+                  <ul class="nav align-items-center">
+                    <div class="search-form">
+                      <form action="app.html" method="get">
+                        <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                        <input class="form-control" type="search" name="" id="" placeholder="Type to search">
+                      </form>
+                    </div>
+                    <li class="nav-item">
+                      <a href="" class="nav-link notification"><i class="fa-regular fa-bell"></i></a>
+                    </li>
+                    <li class="nav-item">
+                      <a href="" class="nav-link profile"><i class="fa-regular fa-circle-user"></i></a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
             </div>
-        </div> 
-    </header>
+          </div>
+        </div>
+      </header>
+      
+      <section id="application">
+        <div class="container">
+          <div class="row justify-content-around">
+            <div class="col-6">
+              <div class="post">
+                <div class="post-form mb-3">
+                  <form action="app.html" method="get">
+                    <img src="img/icon.png" alt="" height="48" style="margin-right: 15px;">
+                    <span class="form-control" type="text" placeholder="" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Try to add something</span>
+                    <div class="btn btn-light image" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                      <i class="fa-regular fa-image"></i>
+                    </div>
+                  </form>
+                </div>
+                <div class="modal fade" id="staticBackdrop" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title d-flex justify-content-center" id="staticBackdropLabel">Create post</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="profile d-flex align-items-center">
+                          <div class="list-group-img">
+                            <img src="img/yusupovbg.jpg" alt="Bakhtiyor Yusupov's profile photo">
+                          </div>
+                          <p>Bakhtiyor Yusupov</p>
+                        </div>
+                        <form action="">
+                          <textarea class="form-control mb-3" id="exampleFormControlTextarea1" placeholder="Try to add something" style="height: 100px; border:none;"></textarea>
+                          <div class="additional d-flex justify-content-between align-items-center p-3 border mb-3 rounded border-1">
+                            <p style="margin:0;font-weight: 600;">Add to your post</p>
+                            <div class="buttons">
+                              <div class="btn btn-light image rounded-circle" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                <i class="fa-regular fa-image text-success"></i>
+                              </div>
+                              <div class="btn btn-light image rounded-circle" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                <i class="fa-solid fa-location-dot text-success"></i>
+                              </div>
+                            </div>
+                          </div>
+                          <button type="submit" class="btn btn-success w-100 post-submitbtn" style="border-radius: 10px;">Post</button>
+                        </form>
+                      </div>
+<!--                       <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Understood</button>
+                      </div> -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-4">
+              <ul class="list-group mb-4">
+                <li class="list-group-item">Trending today</li>
+                <li class="list-group-item">
+                  <a href="#" class="list-group-link"><p>#UIdesign<br><span>0 posts</span></p></a>
+                </li>
+                <li class="list-group-item">
+                  <a href="#" class="list-group-link"><p>#Soccer2022<br><span>0 posts</span></p></a>
+                </li>
+                <li class="list-group-item">
+                  <a href="#" class="list-group-link"><p>#iOS15<br><span>0 posts</span></p></a>
+                </li>
+                <li class="list-group-item">
+                  <a href="#" class="list-group-link"><p>#Apple<br><span>0 posts</span></p></a>
+                </li>
+                <li class="list-group-item">
+                  <a href="#" class="list-group-link"><p>#SketchApp<br><span>0 posts</span></p></a>
+                </li>
+                <li class="list-group-item d-flex justify-content-center"><a href="#" class="list-group-link">Discover Trends</a></li>
+              </ul>
+              <ul class="list-group mb-4">
+                <li class="list-group-item">Popular profiles</li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                  <a href="#" class="list-group-link">
+                    <div class="list-group-img">
+                      <img src="img/yusupovbg.jpg" alt="Bakhtiyor Yusupov's profile photo">
+                    </div>
+                    <p>Bakhtiyor Yusupov <i class="fa-solid fa-badge-check text-primary"></i><br><span>@yusupovbg</span></p>
+                  </a>
+                  <button type="button" class="follow-btn btn btn-success"><i class="fa-regular fa-user-plus"></i></button>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                  <a href="#" class="list-group-link">
+                    <div class="list-group-img">
+                      <img src="img/icon.png" alt="Oybek Babaev's profile photo">
+                    </div>
+                    <p>Oybek Babaev <i class="fa-solid fa-badge-check text-primary"></i><br><span>@tarjimator</span></p>
+                  </a>
+                  <button type="button" class="follow-btn btn btn-success"><i class="fa-regular fa-user-plus"></i></button>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                  <a href="#" class="list-group-link">
+                    <div class="list-group-img">
+                      <img src="img/icon.png" alt="Fakhriddin Shamsiddinov's profile photo">
+                    </div>
+                    <p>Fakhriddin <i class="fa-solid fa-badge-check text-primary"></i><br><span>@trexfill</span></p>
+                  </a>
+                  <button type="button" class="follow-btn btn btn-success"><i class="fa-regular fa-user-plus"></i></button>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                  <a href="#" class="list-group-link">
+                    <div class="list-group-img">
+                      <img src="img/icon.png" alt="Abbie Wilson's profile photo">
+                    </div>
+                    <p>Abbie Wilson<br><span>@wilson.abb</span></p>
+                  </a>
+                  <button type="button" class="follow-btn btn btn-success"><i class="fa-regular fa-user-plus"></i></button>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                  <a href="#" class="list-group-link">
+                    <div class="list-group-img">
+                      <img src="img/icon.png" alt="Sammy Lawson's profile photo">
+                    </div>
+                    <p>Sammy Lawson<br><span>@lawson.sam</span></p>
+                  </a>
+                  <button type="button" class="follow-btn btn rounded-circle btn-success"><i class="fa-regular fa-user-plus"></i></button>
+                </li>
+                <li class="list-group-item d-flex justify-content-center"><a href="#" class="list-group-link">Discover People</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <footer>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="footer-links col-10 d-flex justify-content-around">
+              <div class="col-3 links">
+                <ul>Booking support
+                  <li><a href="">COVID-19</a></li>
+                  <li><a href="">Help center</a></li>
+                  <li><a href="">Support</a></li>
+                  <li><a href="">Trust & safety</a></li>
+                </ul>
+              </div>
+              <div class="col-3 links">
+                <ul>Community
+                  <li><a href="">Against Discrimination</a></li>
+                  <li><a href="">Invite friends</a></li>
+                  <li><a href="">Gift cards</a></li>
+                </ul>
+              </div>
+              <div class="col-3 links">
+                <ul>About
+                  <li><a href="">How it works</a></li>
+                  <li><a href="">Careers</a></li>
+                  <li><a href="">About us</a></li>
+                  <li><a href="">Media</a></li>
+                </ul>
+              </div>
+              <div class="col-3 links">
+                <ul>Become an employer
+                  <li><a href="">Post a job</a></li>
+                  <li><a href="">Business account</a></li>
+                  <li><a href="">Resource center</a></li>
+                  <li><a href="">Community</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-10 footer-copyright mb-3 d-flex justify-content-between align-items-center">
+                <div class="footer-logo justify-content-start">
+                  <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 907.4 342"><path d="M170.83,0h0A171,171,0,0,0-.17,171h0a171,171,0,0,0,171,171h0a171,171,0,0,0,171-171h0A171,171,0,0,0,170.83,0Zm0,98a23,23,0,1,1-23,23A23,23,0,0,1,170.83,98Zm91.92,71.28c-18.37,6-37.58,9.28-57.42,10.91V215a29,29,0,0,1-29,29h-11a29,29,0,0,1-29-29V180.19c-19.84-1.63-39.05-4.94-57.42-10.91a12.44,12.44,0,0,1,7.3-23.78c26.73,7.61,55.15,10,84.62,10s57.89-2.39,84.62-10a12.44,12.44,0,0,1,7.3,23.78Z" transform="translate(0.17)"/><path d="M465.27,143.07a35.06,35.06,0,0,1,13.51,14,43.32,43.32,0,0,1,5,21.1,43,43,0,0,1-5,21,35.13,35.13,0,0,1-13.51,13.93A37,37,0,0,1,446.63,218q-12.81,0-19.55-6.61v32.5H395.29V139.63h30.25V146q6.88-7.74,21.1-7.74A37,37,0,0,1,465.27,143.07ZM448,189.29q3.51-3.93,3.52-11.11T448,167a12.1,12.1,0,0,0-18,0q-3.53,4-3.52,11.18T430,189.29a12.25,12.25,0,0,0,18,0Z" transform="translate(0.17)"/><path d="M575.22,185.49H521.76a12.91,12.91,0,0,0,5.63,6.68,19.1,19.1,0,0,0,9.85,2.32,24.7,24.7,0,0,0,8.51-1.27,30,30,0,0,0,7.53-4.36l16.6,16.74Q558.63,218,536.26,218q-13.93,0-24.48-5.14a38.88,38.88,0,0,1-16.32-14.28,39.77,39.77,0,0,1-.07-41.15A38.94,38.94,0,0,1,511,143.27a51.47,51.47,0,0,1,43.61-.42A36.61,36.61,0,0,1,570,156.5q5.7,9,5.7,21.52Q575.64,178.74,575.22,185.49Zm-49.8-22.93a12.62,12.62,0,0,0-4.22,7.6H546a12.94,12.94,0,0,0-4.22-7.53,12.18,12.18,0,0,0-8.16-2.74A12.39,12.39,0,0,0,525.42,162.56Z" transform="translate(0.17)"/><path d="M603.28,212.85a39.53,39.53,0,0,1-16-14.21,39.69,39.69,0,0,1,0-41.22,39,39,0,0,1,16-14.14,55.12,55.12,0,0,1,46.14,0,38.57,38.57,0,0,1,15.9,14.14,40.11,40.11,0,0,1,0,41.22,39,39,0,0,1-15.9,14.21,54.34,54.34,0,0,1-46.14,0Zm32-23.63q3.51-4,3.52-11.18t-3.52-11.11a12.25,12.25,0,0,0-18,0q-3.52,3.94-3.52,11.11t3.52,11.18a12.1,12.1,0,0,0,18,0Z" transform="translate(0.17)"/><path d="M751,143.07a35,35,0,0,1,13.5,14,43.32,43.32,0,0,1,5,21.1,43,43,0,0,1-5,21A35.17,35.17,0,0,1,751,213.13,37,37,0,0,1,732.36,218q-12.81,0-19.55-6.61v32.5H681V139.63h30.25V146q6.88-7.74,21.1-7.74A37,37,0,0,1,751,143.07Zm-17.24,46.22q3.51-3.93,3.52-11.11T733.76,167a12.1,12.1,0,0,0-18,0q-3.53,4-3.52,11.18t3.52,11.11a12.25,12.25,0,0,0,18,0Z" transform="translate(0.17)"/><path d="M779.48,112.19h31.79V216.58H779.48Z" transform="translate(0.17)"/><path d="M906.8,185.49H853.34a13,13,0,0,0,5.63,6.68,19.1,19.1,0,0,0,9.85,2.32,24.7,24.7,0,0,0,8.51-1.27,29.8,29.8,0,0,0,7.53-4.36l16.6,16.74Q890.21,218,867.84,218q-13.92,0-24.48-5.14A38.88,38.88,0,0,1,827,198.56a39.77,39.77,0,0,1-.07-41.15,38.94,38.94,0,0,1,15.62-14.14,51.47,51.47,0,0,1,43.61-.42,36.61,36.61,0,0,1,15.33,13.65q5.7,9,5.7,21.52Q907.22,178.74,906.8,185.49ZM857,162.56a12.62,12.62,0,0,0-4.22,7.6h24.76a12.94,12.94,0,0,0-4.22-7.53,12.18,12.18,0,0,0-8.16-2.74A12.31,12.31,0,0,0,857,162.56Z" transform="translate(0.17)"/></svg>
+                </div>
+                <div class="copyright-bar d-flex justify-content-center">&copy;<script>document.write(new Date().getFullYear());</script> All rights reserved</div>
+                <div class="powered d-flex justify-content-end align-items-center">
+                  <p class="powered-text">Powered by</p>
+                  <div class="powered-logo"><svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1039.92 266"><polygon points="66 0 0 266 168 266 148.15 187 83.28 187 148 0 66 0"/><polygon points="251 266 317 0 149 0 168.85 79 233.72 79 169 266 251 266"/><path d="M389.23,156.15h45.6L429.19,188h-81.8L365.2,86.66h36.19Z" transform="translate(-10.04 0.47)"/><path d="M505,188l-1.73-18.82H472.18L463.79,188h-36.2l46-101.34h57.18L540.47,188Zm-10.71-70.94-11.87,26.78H502l-1.88-26.78Z" transform="translate(-10.04 0.47)"/><path d="M564.83,86.66h56q15.49,0,24,6.66t8.55,16.5a22.63,22.63,0,0,1-10.22,19.71A31.42,31.42,0,0,1,633,133.85l-.14,1.45a28.91,28.91,0,0,1,8.1,4.2q8.12,6.66,8.11,16.65A29.13,29.13,0,0,1,638.91,179q-10.21,9-28.16,9H547Zm22.88,76h16.07q9.12,0,9.12-8.68,0-7.24-8.69-7.24H590.46ZM607.83,112H596.68l-2.31,13h12.74a8.3,8.3,0,0,0,5.86-2,6.88,6.88,0,0,0,2.1-5.29,5.36,5.36,0,0,0-1.81-4.12A7.79,7.79,0,0,0,607.83,112Z" transform="translate(-10.04 0.47)"/><path d="M723.65,83.76q22.59,0,36.34,11.8t17.37,31.63H741.75a18.55,18.55,0,0,0-3.48-6.51q-5.35-6.51-15.34-6.51A20.48,20.48,0,0,0,707,121.53q-6.51,7.31-6.51,19.47,0,9.12,4.92,14.33t13.13,5.2a20.92,20.92,0,0,0,15.35-6.37,26.32,26.32,0,0,0,4.78-6.37h36.48a65.58,65.58,0,0,1-11.58,21.57q-17.82,21.58-45.75,21.57-25.05,0-40-13.75t-15-35.47q0-24,17.51-41T723.65,83.76Z" transform="translate(-10.04 0.47)"/><path d="M839.61,190.89q-25.05,0-40-13.75t-15-35.47q0-24,17.51-41t43.29-16.94q25,0,40,13.76t15,35.47q0,24-17.52,41T839.61,190.89Zm.72-30.4a20.49,20.49,0,0,0,15.93-7.31q6.51-7.32,6.51-19.47,0-9.12-4.92-14.33t-13.17-5.21a20.49,20.49,0,0,0-15.93,7.36q-6.51,7.31-6.51,19.47,0,9.12,4.92,14.33t13.17,5.2Z" transform="translate(-10.04 0.47)"/><path d="M1001.61,86.66H1050L1032.15,188H996l8.11-46.18,4.49-13.18h-1.45l-18,36.2h-33.3l-5.21-36.2H949v13.18L940.93,188H904.76l17.8-101.34h47.92l5.5,47.05h3.62Z" transform="translate(-10.04 0.47)"/></svg></div>
+                  <!-- <img src="img/labcom.svg" class="powered-logo" height="30px" alt=""> -->
+                </div>
+              </div>
+              <div class="col-10">
+                <div class="language mb-4 d-flex">
+                  <div class="btn-group dropdown">
+                    <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                      Currency - USD
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a href="" class="dropdown-item">English</a></li>
+                      <li><a href="" class="dropdown-item">Russian</a></li>
+                      <li><a href="" class="dropdown-item">Uzbek</a></li>
+                    </ul>
+                  </div>
+                  <button class="btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBackdrop" aria-controls="#offcanvasWithBackdrop">Русский</button>
+      
+                  <div class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasWithBackdrop" aria-labelledby="offcanvasWithBackdropLabel">
+                    <div class="offcanvas-header">
+                      <h5 class="offcanvas-title" id="offcanvasWithBackdropLabel">Choose language</h5>
+                      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body small">
+                      <ul class="nav flex-column">
+                        <li class="nav-item"><a class="nav-link p-1" href="">Русский</a></li>
+                        <li class="nav-item"><a class="nav-link p-1" href="">O'zbekcha</a></li>
+                        <li class="nav-item"><a class="nav-link p-1" href="">English</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <!-- <div class="btn-group dropup">
+                    <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                      English <i class="fa-solid fa-earth-europe"></i>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a href="" class="dropdown-item">English</a></li>
+                      <li><a href="" class="dropdown-item">Russian</a></li>
+                      <li><a href="" class="dropdown-item">Uzbek</a></li>
+                    </ul>
+                  </div> -->
+                </div>
+              </div>
+            </div>
+          </div>
+      </footer>
+    </div>
+  </div>
 
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+  <script src="js/price.js"></script>
+  <script src="js/app.js"></script>
 
-
-
-
-
-
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
+
 </html>
