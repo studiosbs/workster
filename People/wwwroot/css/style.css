@@ -104,7 +104,7 @@ body::-webkit-scrollbar-thumb:hover {
     flex-shrink: 0;
     position: sticky;
     z-index: 10;
-    top: 12px;
+    top: 16px;
     background-color: rgba(255, 255, 255, 0.75);
     -moz-background-color: rgb(255, 255, 255);
     backdrop-filter: blur(15px);
@@ -695,7 +695,11 @@ header{
 }
 
 .App__header .row{
-    margin: 12px !important;
+    margin: 12px 0 !important;
+}
+
+.App__header .row>*{
+    padding: 0 !important;
 }
 
 .app{
@@ -856,6 +860,7 @@ header{
     margin-right: 14px;
     background-color: #f5f5fa;
     height: 48.5px;
+    width: 48.5px;
     border-radius: 50%;
 }
 .list-group-img img{
@@ -878,11 +883,11 @@ header{
     font-size: 15px;
 }
 .follow-btn{
-    padding: 10px 15px !important;
-    font-size: 12px;
+    padding: 12px 14px !important;
+    font-size: 14px;
     height: 100%;
     font-weight: 500;
-    border-radius: 12px !important;
+    border-radius: 24px !important;
 }
 .post-form{
     box-shadow: 0px 3px 4px 0px #999bab4d;
@@ -894,10 +899,51 @@ header{
 .post-form form{
     display: flex;
 }
-.image{
+.post-form .image{
     padding: 10px 15px;
     border-radius: 50%;
 }
-.post-form input{
+.post-form span{
     border: none;
+    padding: 12px;
+    background-color: #f5f5fa;
+    margin-right: 10px;
+    border-radius: 24px;
+}
+
+.btn-light{
+    background-color: #f5f5fa !important;
+    border-color: #f5f5fa !important;
+}
+
+.modal-content{
+    border-radius: 20px !important;
+}
+.modal-body .profile p{
+    font-weight: 800;
+    font-size: 16px;
+    margin: 0;
+}
+.modal-body .profile{
+    margin-bottom: 16px;
+}
+.modal-header .btn-close{
+    background-color: #f5f5fa;
+    border-radius: 50%;
+    margin-left: 0 !important;
+    margin: 2px;
+}
+.modal-header h5{
+    font-weight: 800;
+}
+.post-submitbtn{
+    font-weight: 600;
+}
+
+.text-success{
+    color: #00D066 !important;
+}
+
+.verified{
+    background-image: url("data:image/svg+xml,%3Csvg id='Layer_1' data-name='Layer 1' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 385.98 385.98'%3E%3Cdefs%3E%3Cstyle%3E.cls-1%7Bfill:%233997ef;%7D%3C/style%3E%3C/defs%3E%3Cpath class='cls-1' d='M860,392.7a20,20,0,0,1,0-17.4l14-28.95a20,20,0,0,0-6.77-25.24L840.65,303A20,20,0,0,1,832,288l-2.37-32.07a20,20,0,0,0-18.47-18.47L779,235.05a20,20,0,0,1-15.07-8.7l-18.08-26.58A20,20,0,0,0,720.65,193L691.7,207a20,20,0,0,1-17.4,0l-28.95-14a20,20,0,0,0-25.24,6.77L602,226.35a20,20,0,0,1-15.07,8.7l-32.07,2.37a20,20,0,0,0-18.47,18.47L534.05,288a20,20,0,0,1-8.7,15.07l-26.58,18.08A20,20,0,0,0,492,346.35l14,28.95a20,20,0,0,1,0,17.4l-14,28.95a20,20,0,0,0,6.77,25.24L525.35,465a20,20,0,0,1,8.7,15.07l2.37,32.07a20,20,0,0,0,18.47,18.47L587,533a20,20,0,0,1,15.07,8.7l18.08,26.58A20,20,0,0,0,645.35,575l28.95-14a20,20,0,0,1,17.4,0l28.95,14a20,20,0,0,0,25.24-6.77L764,541.65A20,20,0,0,1,779,533l32.07-2.37a20,20,0,0,0,18.47-18.47L832,480a20,20,0,0,1,8.7-15.07l26.58-18.08A20,20,0,0,0,874,421.65ZM659.36,456.12l-66.21-67.19,20.44-21.44L659.08,414l93.42-91.43L773,342Z' transform='translate(-490.01 -191.01)'/%3E%3C/svg%3E");
 }

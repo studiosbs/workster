@@ -13,6 +13,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="css/all.css">
+  <link rel="stylesheet" href="css/font.css">
   <link rel="stylesheet/scss" href="css/price.scss">
   <link rel="stylesheet" href="css/owl.carousel.css">
   <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
@@ -90,14 +91,50 @@
               <div class="post">
                 <div class="post-form mb-3">
                   <form action="app.html" method="get">
-                    <img src="img/icon.png" alt="" height="48" style="margin-right: 20px;">
-                    <input class="form-control" type="text" placeholder="Try to add something">
-                    <div class="btn btn-light image">
+                    <img src="img/icon.png" alt="" height="48" style="margin-right: 15px;">
+                    <span class="form-control" type="text" placeholder="" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Try to add something</span>
+                    <div class="btn btn-light image" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
                       <i class="fa-regular fa-image"></i>
                     </div>
                   </form>
                 </div>
-                
+                <div class="modal fade" id="staticBackdrop" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title d-flex justify-content-center" id="staticBackdropLabel">Create post</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="profile d-flex align-items-center">
+                          <div class="list-group-img">
+                            <img src="img/yusupovbg.jpg" alt="Bakhtiyor Yusupov's profile photo">
+                          </div>
+                          <p>Bakhtiyor Yusupov</p>
+                        </div>
+                        <form action="">
+                          <textarea class="form-control mb-3" id="exampleFormControlTextarea1" placeholder="Try to add something" style="height: 100px; border:none;"></textarea>
+                          <div class="additional d-flex justify-content-between align-items-center p-3 border mb-3 rounded border-1">
+                            <p style="margin:0;font-weight: 600;">Add to your post</p>
+                            <div class="buttons">
+                              <div class="btn btn-light image rounded-circle" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                <i class="fa-regular fa-image text-success"></i>
+                              </div>
+                              <div class="btn btn-light image rounded-circle" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                                <i class="fa-solid fa-location-dot text-success"></i>
+                              </div>
+                            </div>
+                          </div>
+                          <button type="submit" class="btn btn-success w-100 post-submitbtn" style="border-radius: 10px;">Post</button>
+                        </form>
+                      </div>
+<!--                       <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Understood</button>
+                      </div> -->
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
             <div class="col-4">
@@ -127,27 +164,27 @@
                     <div class="list-group-img">
                       <img src="img/yusupovbg.jpg" alt="Bakhtiyor Yusupov's profile photo">
                     </div>
-                    <p>Bakhtiyor Yusupov<br><span>@yusupovbg</span></p>
+                    <p>Bakhtiyor Yusupov <i class="fa-solid fa-badge-check text-primary"></i><br><span>@yusupovbg</span></p>
                   </a>
-                  <button type="button" class="follow-btn btn btn-success">Follow</button>
+                  <button type="button" class="follow-btn btn btn-success"><i class="fa-regular fa-user-plus"></i></button>
                 </li>
                 <li class="list-group-item d-flex justify-content-between align-items-center">
                   <a href="#" class="list-group-link">
                     <div class="list-group-img">
                       <img src="img/icon.png" alt="Oybek Babaev's profile photo">
                     </div>
-                    <p>Oybek Babaev<br><span>@tarjimator</span></p>
+                    <p>Oybek Babaev <i class="fa-solid fa-badge-check text-primary"></i><br><span>@tarjimator</span></p>
                   </a>
-                  <button type="button" class="follow-btn btn btn-success">Follow</button>
+                  <button type="button" class="follow-btn btn btn-success"><i class="fa-regular fa-user-plus"></i></button>
                 </li>
                 <li class="list-group-item d-flex justify-content-between align-items-center">
                   <a href="#" class="list-group-link">
                     <div class="list-group-img">
                       <img src="img/icon.png" alt="Fakhriddin Shamsiddinov's profile photo">
                     </div>
-                    <p>Fakhriddin<br><span>@trexfill</span></p>
+                    <p>Fakhriddin <i class="fa-solid fa-badge-check text-primary"></i><br><span>@trexfill</span></p>
                   </a>
-                  <button type="button" class="follow-btn btn btn-success">Follow</button>
+                  <button type="button" class="follow-btn btn btn-success"><i class="fa-regular fa-user-plus"></i></button>
                 </li>
                 <li class="list-group-item d-flex justify-content-between align-items-center">
                   <a href="#" class="list-group-link">
@@ -156,7 +193,7 @@
                     </div>
                     <p>Abbie Wilson<br><span>@wilson.abb</span></p>
                   </a>
-                  <button type="button" class="follow-btn btn btn-success">Follow</button>
+                  <button type="button" class="follow-btn btn btn-success"><i class="fa-regular fa-user-plus"></i></button>
                 </li>
                 <li class="list-group-item d-flex justify-content-between align-items-center">
                   <a href="#" class="list-group-link">
@@ -165,7 +202,7 @@
                     </div>
                     <p>Sammy Lawson<br><span>@lawson.sam</span></p>
                   </a>
-                  <button type="button" class="follow-btn btn btn-success">Follow</button>
+                  <button type="button" class="follow-btn btn rounded-circle btn-success"><i class="fa-regular fa-user-plus"></i></button>
                 </li>
                 <li class="list-group-item d-flex justify-content-center"><a href="#" class="list-group-link">Discover People</a></li>
               </ul>
@@ -268,6 +305,8 @@
 
   <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
   <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
   <script src="js/price.js"></script>
