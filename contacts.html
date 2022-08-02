@@ -43,10 +43,10 @@
                   </a>
                   <ul class="nav">
                     <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="#">Feed</a>
+                      <a class="nav-link" aria-current="page" href="#">Feed</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="contacts.html">Contacts</a>
+                      <a class="nav-link active" href="#">Contacts</a>
                     </li>
                     <li class="nav-item">
                       <a class="nav-link" href="#">Jobs</a>
@@ -85,130 +85,7 @@
       </header>
       
       <section id="application">
-        <div class="container">
-          <div class="row justify-content-around">
-            <div class="col-6">
-              <div class="post">
-                <div class="post-form mb-3">
-                  <form action="app.html" method="get">
-                    <img src="img/icon.png" alt="" height="48" style="margin-right: 15px;">
-                    <span class="form-control" type="text" placeholder="" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Try to add something</span>
-                    <div class="btn btn-light image" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                      <i class="fa-regular fa-image"></i>
-                    </div>
-                  </form>
-                </div>
-                <div class="modal fade" id="staticBackdrop" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
-                  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h5 class="modal-title d-flex justify-content-center" id="staticBackdropLabel">Create post</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                      </div>
-                      <div class="modal-body">
-                        <div class="profile d-flex align-items-center">
-                          <div class="list-group-img">
-                            <img src="img/yusupovbg.jpg" alt="Bakhtiyor Yusupov's profile photo">
-                          </div>
-                          <p>Bakhtiyor Yusupov</p>
-                        </div>
-                        <form action="">
-                          <textarea class="form-control mb-3" id="exampleFormControlTextarea1" placeholder="Try to add something" style="height: 100px; border:none;"></textarea>
-                          <div class="additional d-flex justify-content-between align-items-center p-3 border mb-3 rounded border-1">
-                            <p style="margin:0;font-weight: 600;">Add to your post</p>
-                            <div class="buttons">
-                              <div class="btn btn-light image rounded-circle" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                                <i class="fa-regular fa-image text-success"></i>
-                              </div>
-                              <div class="btn btn-light image rounded-circle" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-                                <i class="fa-solid fa-location-dot text-success"></i>
-                              </div>
-                            </div>
-                          </div>
-                          <button type="submit" class="btn btn-success w-100 post-submitbtn" style="border-radius: 10px;">Post</button>
-                        </form>
-                      </div>
-<!--                       <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-primary">Understood</button>
-                      </div> -->
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-4">
-              <ul class="list-group mb-4">
-                <li class="list-group-item">Trending today</li>
-                <li class="list-group-item">
-                  <a href="#" class="list-group-link"><p>#UIdesign<br><span>0 posts</span></p></a>
-                </li>
-                <li class="list-group-item">
-                  <a href="#" class="list-group-link"><p>#Soccer2022<br><span>0 posts</span></p></a>
-                </li>
-                <li class="list-group-item">
-                  <a href="#" class="list-group-link"><p>#iOS15<br><span>0 posts</span></p></a>
-                </li>
-                <li class="list-group-item">
-                  <a href="#" class="list-group-link"><p>#Apple<br><span>0 posts</span></p></a>
-                </li>
-                <li class="list-group-item">
-                  <a href="#" class="list-group-link"><p>#SketchApp<br><span>0 posts</span></p></a>
-                </li>
-                <li class="list-group-item d-flex justify-content-center"><a href="#" class="list-group-link">Discover Trends</a></li>
-              </ul>
-              <ul class="list-group mb-4">
-                <li class="list-group-item">Popular profiles</li>
-                <li class="list-group-item d-flex justify-content-between align-items-center">
-                  <a href="#" class="list-group-link">
-                    <div class="list-group-img">
-                      <img src="img/yusupovbg.jpg" alt="Bakhtiyor Yusupov's profile photo">
-                    </div>
-                    <p>Bakhtiyor Yusupov <i class="fa-solid fa-badge-check text-primary"></i><br><span>@yusupovbg</span></p>
-                  </a>
-                  <button type="button" class="follow-btn btn btn-success"><i class="fa-regular fa-user-plus"></i></button>
-                </li>
-                <li class="list-group-item d-flex justify-content-between align-items-center">
-                  <a href="#" class="list-group-link">
-                    <div class="list-group-img">
-                      <img src="img/icon.png" alt="Oybek Babaev's profile photo">
-                    </div>
-                    <p>Oybek Babaev <i class="fa-solid fa-badge-check text-primary"></i><br><span>@tarjimator</span></p>
-                  </a>
-                  <button type="button" class="follow-btn btn btn-success"><i class="fa-regular fa-user-plus"></i></button>
-                </li>
-                <li class="list-group-item d-flex justify-content-between align-items-center">
-                  <a href="#" class="list-group-link">
-                    <div class="list-group-img">
-                      <img src="img/icon.png" alt="Fakhriddin Shamsiddinov's profile photo">
-                    </div>
-                    <p>Fakhriddin <i class="fa-solid fa-badge-check text-primary"></i><br><span>@trexfill</span></p>
-                  </a>
-                  <button type="button" class="follow-btn btn btn-success"><i class="fa-regular fa-user-plus"></i></button>
-                </li>
-                <li class="list-group-item d-flex justify-content-between align-items-center">
-                  <a href="#" class="list-group-link">
-                    <div class="list-group-img">
-                      <img src="img/icon.png" alt="Abbie Wilson's profile photo">
-                    </div>
-                    <p>Bobur <i class="fa-solid fa-badge-check text-primary"></i><br><span>@bobbot</span></p>
-                  </a>
-                  <button type="button" class="follow-btn btn btn-success"><i class="fa-regular fa-user-plus"></i></button>
-                </li>
-                <li class="list-group-item d-flex justify-content-between align-items-center">
-                  <a href="#" class="list-group-link">
-                    <div class="list-group-img">
-                      <img src="img/icon.png" alt="Sammy Lawson's profile photo">
-                    </div>
-                    <p>Sammy Lawson<br><span>@lawson.sam</span></p>
-                  </a>
-                  <button type="button" class="follow-btn btn rounded-circle btn-success"><i class="fa-regular fa-user-plus"></i></button>
-                </li>
-                <li class="list-group-item d-flex justify-content-center"><a href="#" class="list-group-link">Discover People</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
+        
       </section>
       
       <footer>
