@@ -141,6 +141,14 @@ body::-webkit-scrollbar-thumb:hover {
     background-position: center;
 }
 
+.search-bg{
+    border-radius: 25px;
+    padding: 100px 0;
+    background-size: cover;
+    background-image: url(../img/search_slider.jpg);
+    background-position: top;
+}
+
 .header-img{
     margin-bottom: 100px;
 }
@@ -186,6 +194,37 @@ body::-webkit-scrollbar-thumb:hover {
     box-shadow: 0px 4px 7px 0px #999babd0;
     -webkit-box-shadow: 0px 4px 5px 0px #999babd0;
     -moz-box-shadow: 0px 0px 5px 0px #999babd0;
+}
+
+.header-form .search-form{
+    background-color: rgba(255, 255, 255, 0.75);
+    -moz-background-color: rgb(255, 255, 255);
+    backdrop-filter: blur(15px);
+    -moz-backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    padding: 10px 28px;
+    height: auto;
+    box-shadow: 0px 5px 15px 0px #999babd0;
+    -webkit-box-shadow: 0px 5px 15px 0px #999babd0;
+    border-radius: 24px;
+}
+
+.header-form .search-form input{
+    padding: 0;
+}
+
+.header-form .search-form button{
+    margin: 4px;
+    padding: 16px 19px;
+}
+
+.header-form .search-form select{
+    width: 100%;
+    font-weight: 700;
+    margin: 0;
+    background-color: transparent;
+    border: none;
+    font-size: 14px;
 }
 
 .header-form button {
