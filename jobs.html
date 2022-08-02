@@ -97,62 +97,143 @@
                 </div>
             </div>
         </div>
-      </section>
-      
-      <div class="header-form" style="top: -84px;">
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-10">
-              <form action="app.html" class="search-form flex-column" method="get">
-                <div class="main d-flex mb-2">
-                    <input class="form-control" type="search" name="" id="" placeholder="Job title, keyword or company">
-                    <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+        
+        <div class="header-form" style="top: -84px;">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-10">
+                  <form action="app.html" class="search-form flex-column" method="get">
+                    <div class="main d-flex mb-2">
+                        <input class="form-control" type="search" name="" id="" placeholder="Job title, keyword or company">
+                        <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </div>
+                    <div class="divider"></div>
+                    <div class="search-filter d-flex mt-2 mb-2 justify-content-between">
+                        <div class="form-floating col-2">
+                            <select class="form-select" id="location" aria-label="Floating label select example">
+                              <option selected>Tashkent, UZB</option>
+                              <option value="1">One</option>
+                              <option value="2">Two</option>
+                              <option value="3">Three</option>
+                            </select>
+                            <label for="location">Location</label>
+                          </div>
+                        <div class="form-floating col-2">
+                            <select class="form-select" id="date" aria-label="Floating label select example">
+                              <option selected>Last 7 days</option>
+                              <option value="1">One</option>
+                              <option value="2">Two</option>
+                              <option value="3">Three</option>
+                            </select>
+                            <label for="date">Date posted</label>
+                          </div>
+                        <div class="form-floating col-2">
+                            <select class="form-select" id="experience" aria-label="Floating label select example">
+                              <option selected>Any</option>
+                              <option value="1">One</option>
+                              <option value="2">Two</option>
+                              <option value="3">Three</option>
+                            </select>
+                            <label for="experience">Experience</label>
+                          </div>
+                        <div class="form-floating col-2">
+                            <select class="form-select" id="salary" aria-label="Floating label select example">
+                              <option selected>from $50K</option>
+                              <option value="1">One</option>
+                              <option value="2">Two</option>
+                              <option value="3">Three</option>
+                            </select>
+                            <label for="experience">Salary</label>
+                          </div>
+                        <div class="form-floating col-2">
+                            <select class="form-select" id="jobtype" aria-label="Floating label select example">
+                              <option selected>Remote</option>
+                              <option value="1">One</option>
+                              <option value="2">Two</option>
+                              <option value="3">Three</option>
+                            </select>
+                            <label for="jobtype">Job type</label>
+                          </div>
+                    </div>
+                  </form>
+                  <p class="m-3 text" style="text-align: left;">Suggested job searches</p>
+                  <div class="align-items-center suggested-btn">
+                    <div class="d-flex justify-content-center">
+                      <a href="#" class="search-link">Founder <i class="fa-solid fa-magnifying-glass"></i></a>
+                      <a href="#" class="search-link">Founding partner <i class="fa-solid fa-magnifying-glass"></i></a>
+                      <a href="#" class="search-link">Brand memeber <i class="fa-solid fa-magnifying-glass"></i></a>
+                      <a href="#" class="search-link">Enterpreneur in residence <i class="fa-solid fa-magnifying-glass"></i></a>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                      <a href="#" class="search-link">Project manager <i class="fa-solid fa-magnifying-glass"></i></a>
+                      <a href="#" class="search-link">Co-founder <i class="fa-solid fa-magnifying-glass"></i></a>
+                      <a href="#" class="search-link">Developer <i class="fa-solid fa-magnifying-glass"></i></a>
+                      <a href="#" class="search-link">Managing director <i class="fa-solid fa-magnifying-glass"></i></a>
+                  </div>
                 </div>
-                <div class="divider"></div>
-                <div class="search-filter d-flex mt-2 mb-2">
-                    <div class="form-floating col-3">
-                        <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
-                          <option selected>Open this select menu</option>
-                          <option value="1">One</option>
-                          <option value="2">Two</option>
-                          <option value="3">Three</option>
-                        </select>
-                        <label for="floatingSelect">Location</label>
-                      </div>
-                    <div class="form-floating col-3">
-                        <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
-                          <option selected>Open this select menu</option>
-                          <option value="1">One</option>
-                          <option value="2">Two</option>
-                          <option value="3">Three</option>
-                        </select>
-                        <label for="floatingSelect">Date posted</label>
-                      </div>
-                    <div class="form-floating col-3">
-                        <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
-                          <option selected>Open this select menu</option>
-                          <option value="1">One</option>
-                          <option value="2">Two</option>
-                          <option value="3">Three</option>
-                        </select>
-                        <label for="floatingSelect">Experience</label>
-                      </div>
-                    <div class="form-floating col-3">
-                        <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
-                          <option selected>Open this select menu</option>
-                          <option value="1">One</option>
-                          <option value="2">Two</option>
-                          <option value="3">Three</option>
-                        </select>
-                        <label for="floatingSelect">Job type</label>
-                      </div>
-                </div>
-              </form>
-              <p>Вы также можете <span>Разместить вакансию</span> или <span>Разместить свое резюме.</span></p>
+              </div>
             </div>
           </div>
-        </div>
-      </div>
+          </div>
+          
+          <section class="recommended">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-10">
+                        <p class="m-3 text">Recommended for you</p>
+                        
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                <a href="#" class="list-group-link">
+                                  <div class="list-group-img">
+                                    <img src="img/favicon_48x48.png" alt="">
+                                  </div>
+                                  <p>Crisis Intervation Specialist<br><span>London &#8231; Dribble Inc. &#8231; Full-Time</span></p>
+                                </a>
+                                <button type="button" class="follow-btn btn btn-outline-light">$50k-$55k per month</button>
+                              </li>
+                              <li class="list-group-item d-flex justify-content-between align-items-center">
+                                <a href="#" class="list-group-link">
+                                  <div class="list-group-img">
+                                    <img src="img/favicon_48x48.png" alt="">
+                                  </div>
+                                  <p>Crisis Intervation Specialist<br><span>London &#8231; Dribble Inc. &#8231; Full-Time</span></p>
+                                </a>
+                                <button type="button" class="follow-btn btn btn-outline-light">$50k-$55k per month</button>
+                              </li>
+                              <li class="list-group-item d-flex justify-content-between align-items-center">
+                                <a href="#" class="list-group-link">
+                                  <div class="list-group-img">
+                                    <img src="img/favicon_48x48.png" alt="">
+                                  </div>
+                                  <p>Crisis Intervation Specialist<br><span>London &#8231; Dribble Inc. &#8231; Full-Time</span></p>
+                                </a>
+                                <button type="button" class="follow-btn btn btn-outline-light">$50k-$55k per month</button>
+                              </li>
+                              <li class="list-group-item d-flex justify-content-between align-items-center">
+                                <a href="#" class="list-group-link">
+                                  <div class="list-group-img">
+                                    <img src="img/favicon_48x48.png" alt="">
+                                  </div>
+                                  <p>Crisis Intervation Specialist<br><span>London &#8231; Dribble Inc. &#8231; Full-Time</span></p>
+                                </a>
+                                <button type="button" class="follow-btn btn btn-outline-light">$50k-$55k per month</button>
+                              </li>
+                              <li class="list-group-item d-flex justify-content-between align-items-center">
+                                <a href="#" class="list-group-link">
+                                  <div class="list-group-img">
+                                    <img src="img/favicon_48x48.png" alt="">
+                                  </div>
+                                  <p>Crisis Intervation Specialist<br><span>London &#8231; Dribble Inc. &#8231; Full-Time</span></p>
+                                </a>
+                                <button type="button" class="follow-btn btn btn-outline-light">$50k-$55k per month</button>
+                              </li>
+                          </ul>
+                    </div>
+                </div>
+            </div>
+          </section>
+      </section>
       
       <footer>
         <div class="container">
