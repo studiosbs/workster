@@ -358,6 +358,9 @@ body::-webkit-scrollbar-thumb:hover {
 
 h6 {
     font-size: 18px;
+}
+
+h1, h2, h3, h4, h5, h6{
     font-weight: 800;
 }
 
@@ -1028,4 +1031,95 @@ header{
     border: 2px solid #f5f5fa;
     color: #000;
     font-weight: 600;
+}
+
+.cover-img{
+    border-radius: 25px;
+}
+
+.profile-img{
+    border: 5px solid #fff;
+    margin-top: 0 !important;
+    top: -50px;
+    height: 100px;
+    position: relative;
+}
+
+.job-title, .company-name, .company-address{
+    margin-top: 0 !important;
+}
+
+.company-address{
+    color: #8083A3;
+}
+
+.job-skills .btn{
+    padding: 5px 25px;
+    color: #8083A3;
+    font-weight: 600;
+}
+
+.bold-text{
+    font-weight: 600;
+}
+
+.map{
+    height: 300px !important;
+    border-radius: 15px;
+}
+
+.job-card1, .job-card2{
+    border: 2px solid #f5f5fa;
+    border-radius: 14px;
+}
+.job-card .job-address{
+    font-weight: 600;
+}
+
+.avg-salary{
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 20px;
+}
+
+.avg-salary span{
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.details-title{
+    font-size: 14px;
+    font-weight: 500;
+    color: #8083A3;
+}
+
+.job-card .btn-outline-light{
+    padding: 12px;
+    text-align: center;
+}
+.details-text{
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.details-text span{
+    color: #8083A3;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.job-card .btn{
+    font-weight: 600;
+}
+
+.border-light{
+    border-color: #f5f5fa !important;
+    border: 1px solid;
+}
+
+.company-description{
+    font-weight: 600;
+    color: #8083A3;
+    font-size: 14px;
 }
